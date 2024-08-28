@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Test Version of Wine Map with Edits</name>
+    <description/>
+    <NetworkLink>
+      <name>Test Version of Wine Map with Edits</name>
+      <Link>
+        <href><![CDATA[https://www.google.com/maps/d/u/0/kml?forcekml=1&mid=1xM5ES2kdBGusbgd9f_ba0NiDEzHkG04]]></href>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>

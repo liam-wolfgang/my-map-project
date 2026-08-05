@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Test Version of Wine Map with Edits</name>
+    <name>Wine map</name>
     <description/>
-    <Style id="icon-1899-0288D1-nodesc-normal">
+    <Style id="icon-1899-E65100-normal">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>ff0051e6</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -15,13 +15,10 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
+    <Style id="icon-1899-E65100-highlight">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>ff0051e6</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -31,102 +28,15 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-0288D1-nodesc">
+    <StyleMap id="icon-1899-E65100">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-E65100-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1899-7CB342-nodesc-normal">
-      <IconStyle>
-        <color>ff42b37c</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1899-7CB342-nodesc-highlight">
-      <IconStyle>
-        <color>ff42b37c</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1899-7CB342-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-7CB342-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-7CB342-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1899-9C27B0-nodesc-normal">
-      <IconStyle>
-        <color>ffb0279c</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1899-9C27B0-nodesc-highlight">
-      <IconStyle>
-        <color>ffb0279c</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1899-9C27B0-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-9C27B0-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-9C27B0-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-E65100-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-000000-1200-77-normal">
@@ -263,44 +173,6 @@
         <styleUrl>#poly-006064-1200-115-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-006064-1200-115-nodesc-normal">
-      <LineStyle>
-        <color>ff646000</color>
-        <width>1.2</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>73646000</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="poly-006064-1200-115-nodesc-highlight">
-      <LineStyle>
-        <color>ff646000</color>
-        <width>1.8</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>73646000</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="poly-006064-1200-115-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#poly-006064-1200-115-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#poly-006064-1200-115-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="poly-006064-1200-130-nodesc-normal">
       <LineStyle>
         <color>ff646000</color>
@@ -339,7 +211,7 @@
         <styleUrl>#poly-006064-1200-130-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-006064-1200-77-nodesc-normal">
+    <Style id="poly-006064-1200-77-normal">
       <LineStyle>
         <color>ff646000</color>
         <width>1.2</width>
@@ -349,11 +221,8 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="poly-006064-1200-77-nodesc-highlight">
+    <Style id="poly-006064-1200-77-highlight">
       <LineStyle>
         <color>ff646000</color>
         <width>1.8</width>
@@ -363,18 +232,15 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="poly-006064-1200-77-nodesc">
+    <StyleMap id="poly-006064-1200-77">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-006064-1200-77-nodesc-normal</styleUrl>
+        <styleUrl>#poly-006064-1200-77-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-006064-1200-77-nodesc-highlight</styleUrl>
+        <styleUrl>#poly-006064-1200-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-006064-3601-138-nodesc-normal">
@@ -745,7 +611,7 @@
         <styleUrl>#poly-01579B-1200-77-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-01579B-2901-77-nodesc-normal">
+    <Style id="poly-01579B-2901-77-normal">
       <LineStyle>
         <color>ff9b5701</color>
         <width>2.901</width>
@@ -755,11 +621,8 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="poly-01579B-2901-77-nodesc-highlight">
+    <Style id="poly-01579B-2901-77-highlight">
       <LineStyle>
         <color>ff9b5701</color>
         <width>4.3515</width>
@@ -769,18 +632,15 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="poly-01579B-2901-77-nodesc">
+    <StyleMap id="poly-01579B-2901-77">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-01579B-2901-77-nodesc-normal</styleUrl>
+        <styleUrl>#poly-01579B-2901-77-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-01579B-2901-77-nodesc-highlight</styleUrl>
+        <styleUrl>#poly-01579B-2901-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-01579B-3101-110-nodesc-normal">
@@ -1099,6 +959,38 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#poly-097138-4501-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0F9D58-1200-77-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0F9D58-1200-77-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d589d0f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0F9D58-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0F9D58-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0F9D58-1200-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-0F9D58-5001-166-nodesc-normal">
@@ -1463,6 +1355,44 @@
         <styleUrl>#poly-3949AB-3401-77-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="poly-4E342E-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff2e344e</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d2e344e</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-4E342E-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff2e344e</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d2e344e</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-4E342E-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-4E342E-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-4E342E-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="poly-4E342E-1804-120-normal">
       <LineStyle>
         <color>ff2e344e</color>
@@ -1589,6 +1519,44 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#poly-673AB7-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-673AB7-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ffb73a67</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4db73a67</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-673AB7-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ffb73a67</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4db73a67</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-673AB7-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-673AB7-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-673AB7-1200-77-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-673AB7-3101-77-nodesc-normal">
@@ -1761,6 +1729,38 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#poly-795548-1601-69-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-7CB342-1200-77-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d42b37c</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-7CB342-1200-77-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d42b37c</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-7CB342-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-7CB342-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-7CB342-1200-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-7CB342-1200-77-nodesc-normal">
@@ -1979,7 +1979,7 @@
         <styleUrl>#poly-817717-2801-125-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-817717-3801-77-nodesc-normal">
+    <Style id="poly-817717-3801-77-normal">
       <LineStyle>
         <color>ff177781</color>
         <width>3.801</width>
@@ -1989,11 +1989,8 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="poly-817717-3801-77-nodesc-highlight">
+    <Style id="poly-817717-3801-77-highlight">
       <LineStyle>
         <color>ff177781</color>
         <width>5.7015</width>
@@ -2003,18 +2000,47 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="poly-817717-3801-77-nodesc">
+    <StyleMap id="poly-817717-3801-77">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-817717-3801-77-nodesc-normal</styleUrl>
+        <styleUrl>#poly-817717-3801-77-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-817717-3801-77-nodesc-highlight</styleUrl>
+        <styleUrl>#poly-817717-3801-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-87CEAC-1200-77-normal">
+      <LineStyle>
+        <color>ffacce87</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dacce87</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-87CEAC-1200-77-highlight">
+      <LineStyle>
+        <color>ffacce87</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dacce87</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-87CEAC-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-87CEAC-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-87CEAC-1200-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-87CEAC-1200-77-nodesc-normal">
@@ -2411,6 +2437,38 @@
         <styleUrl>#poly-9FA8DA-1200-168-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="poly-9FA8DA-1200-77-normal">
+      <LineStyle>
+        <color>ffdaa89f</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4ddaa89f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-9FA8DA-1200-77-highlight">
+      <LineStyle>
+        <color>ffdaa89f</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4ddaa89f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-9FA8DA-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-9FA8DA-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-9FA8DA-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="poly-9FA8DA-1200-77-nodesc-normal">
       <LineStyle>
         <color>ffdaa89f</color>
@@ -2485,6 +2543,44 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#poly-A1C2FA-1200-173-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-A1C2FA-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>fffac2a1</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dfac2a1</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-A1C2FA-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>fffac2a1</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dfac2a1</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-A1C2FA-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-A1C2FA-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-A1C2FA-1200-77-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-A1C2FA-4501-77-nodesc-normal">
@@ -2741,6 +2837,44 @@
         <styleUrl>#poly-A52714-3901-77-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="poly-AFB42B-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff2bb4af</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d2bb4af</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-AFB42B-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff2bb4af</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d2bb4af</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-AFB42B-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-AFB42B-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-AFB42B-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="poly-AFB42B-3901-77-nodesc-normal">
       <LineStyle>
         <color>ff2bb4af</color>
@@ -2989,7 +3123,7 @@
         <styleUrl>#poly-C2185B-1200-77-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-C5E1A5-1200-77-nodesc-normal">
+    <Style id="poly-C5E1A5-1200-77-normal">
       <LineStyle>
         <color>ffa5e1c5</color>
         <width>1.2</width>
@@ -2999,11 +3133,8 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="poly-C5E1A5-1200-77-nodesc-highlight">
+    <Style id="poly-C5E1A5-1200-77-highlight">
       <LineStyle>
         <color>ffa5e1c5</color>
         <width>1.8</width>
@@ -3013,18 +3144,15 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="poly-C5E1A5-1200-77-nodesc">
+    <StyleMap id="poly-C5E1A5-1200-77">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-C5E1A5-1200-77-nodesc-normal</styleUrl>
+        <styleUrl>#poly-C5E1A5-1200-77-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-C5E1A5-1200-77-nodesc-highlight</styleUrl>
+        <styleUrl>#poly-C5E1A5-1200-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-CE93D8-1200-77-normal">
@@ -3057,6 +3185,44 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#poly-CE93D8-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-CE93D8-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ffd893ce</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dd893ce</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-CE93D8-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ffd893ce</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dd893ce</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-CE93D8-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-CE93D8-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-CE93D8-1200-77-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-CE93D8-2501-77-nodesc-normal">
@@ -3485,36 +3651,36 @@
         <styleUrl>#poly-E6EE9C-9200-171-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-EDA29B-1200-176-normal">
+    <Style id="poly-EDA29B-1200-77-normal">
       <LineStyle>
         <color>ff9ba2ed</color>
         <width>1.2</width>
       </LineStyle>
       <PolyStyle>
-        <color>b09ba2ed</color>
+        <color>4d9ba2ed</color>
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
     </Style>
-    <Style id="poly-EDA29B-1200-176-highlight">
+    <Style id="poly-EDA29B-1200-77-highlight">
       <LineStyle>
         <color>ff9ba2ed</color>
         <width>1.8</width>
       </LineStyle>
       <PolyStyle>
-        <color>b09ba2ed</color>
+        <color>4d9ba2ed</color>
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
     </Style>
-    <StyleMap id="poly-EDA29B-1200-176">
+    <StyleMap id="poly-EDA29B-1200-77">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-EDA29B-1200-176-normal</styleUrl>
+        <styleUrl>#poly-EDA29B-1200-77-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-EDA29B-1200-176-highlight</styleUrl>
+        <styleUrl>#poly-EDA29B-1200-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-EDA29B-1200-77-nodesc-normal">
@@ -4363,6 +4529,44 @@
         <styleUrl>#poly-F9A825-1200-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="poly-F9A825-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d25a8f9</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-F9A825-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d25a8f9</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-F9A825-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F9A825-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F9A825-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="poly-F9A825-4001-77-nodesc-normal">
       <LineStyle>
         <color>ff25a8f9</color>
@@ -4439,6 +4643,38 @@
         <styleUrl>#poly-F9A825-4101-130-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="poly-FADA80-1200-77-normal">
+      <LineStyle>
+        <color>ff80dafa</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d80dafa</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FADA80-1200-77-highlight">
+      <LineStyle>
+        <color>ff80dafa</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d80dafa</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FADA80-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FADA80-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FADA80-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="poly-FBC02D-1200-148-nodesc-normal">
       <LineStyle>
         <color>ff2dc0fb</color>
@@ -4477,7 +4713,39 @@
         <styleUrl>#poly-FBC02D-1200-148-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-FBC02D-3101-77-nodesc-normal">
+    <Style id="poly-FBC02D-1200-77-normal">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d2dc0fb</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FBC02D-1200-77-highlight">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d2dc0fb</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FBC02D-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FBC02D-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FBC02D-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FBC02D-3101-77-normal">
       <LineStyle>
         <color>ff2dc0fb</color>
         <width>3.101</width>
@@ -4487,11 +4755,8 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="poly-FBC02D-3101-77-nodesc-highlight">
+    <Style id="poly-FBC02D-3101-77-highlight">
       <LineStyle>
         <color>ff2dc0fb</color>
         <width>4.6515</width>
@@ -4501,18 +4766,15 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="poly-FBC02D-3101-77-nodesc">
+    <StyleMap id="poly-FBC02D-3101-77">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-FBC02D-3101-77-nodesc-normal</styleUrl>
+        <styleUrl>#poly-FBC02D-3101-77-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-FBC02D-3101-77-nodesc-highlight</styleUrl>
+        <styleUrl>#poly-FBC02D-3101-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-FBC02D-4301-145-normal">
@@ -4871,6 +5133,38 @@
         <styleUrl>#poly-FF5252-4003-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="poly-FFD600-1200-77-normal">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d00d6ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFD600-1200-77-highlight">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d00d6ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFD600-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFD600-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFD600-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="poly-FFD600-1200-77-nodesc-normal">
       <LineStyle>
         <color>ff00d6ff</color>
@@ -5055,7 +5349,7 @@
         <styleUrl>#poly-FFD600-4301-130-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-FFEA00-1200-77-nodesc-normal">
+    <Style id="poly-FFEA00-1200-77-normal">
       <LineStyle>
         <color>ff00eaff</color>
         <width>1.2</width>
@@ -5065,11 +5359,8 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="poly-FFEA00-1200-77-nodesc-highlight">
+    <Style id="poly-FFEA00-1200-77-highlight">
       <LineStyle>
         <color>ff00eaff</color>
         <width>1.8</width>
@@ -5079,18 +5370,15 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="poly-FFEA00-1200-77-nodesc">
+    <StyleMap id="poly-FFEA00-1200-77">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-FFEA00-1200-77-nodesc-normal</styleUrl>
+        <styleUrl>#poly-FFEA00-1200-77-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-FFEA00-1200-77-nodesc-highlight</styleUrl>
+        <styleUrl>#poly-FFEA00-1200-77-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-FFEA00-3601-140-normal">
@@ -5205,7 +5493,7 @@
       <name>Western Europe</name>
       <Placemark>
         <name>Sicily</name>
-        <description><![CDATA[Sicily<br>Varieties from this region include: Nero d'Avola, Cataratto, Inzolia, Grecanico, Syrah.<br>Size: 40,000 hectares (apprx)<br>Wineries: 600+ (apprx)<br>Noteworthy: Cerasuolo di Vittoria wine]]></description>
+        <description><![CDATA[largest island in the Mediterranean.<br>Vineyard size: 98,355 ha<br>Wineries: 600+ <br>60% white grapes: Catarrato, Grillo, Ansonica, Chardonnay, Grecanico Dorato, Zibbibo (Muscat d'Alexandrie), pinot Grigio...<br>40% red grapes: Nero D'avola (Calabrese), Syrah, Merlot, Nerello Mascalese, Pinot Noir, Nerello Mantellato (Nerello Cappuccio), Frapatto, Perricone... <br>Historically a producer of bulk wine, now quality wine (DOC, DOCG and IGT represent 2/3 of the production).<br>Noteworthy: Etna DOC; mineral white wines from Carricante and elegant red wines from Nerello Mascalese grown on the slopes of Mount Etna volcano.]]></description>
         <styleUrl>#poly-558B2F-3001-112</styleUrl>
         <Polygon>
           <outerBoundaryIs>
@@ -5275,83 +5563,6 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-      </Placemark>
-      <Placemark>
-        <name>Champagne</name>
-        <description><![CDATA[Varieties from this region include: Pinot Noir, Pinot Meunier and Chardonnay.<br>Size: 33,000 hectares (apprx) (81,545 acres)<br>Wineries: 100 Houses, 5000 growers/cooperatives (apprx)<br>Noteworthy: Around 300million bottles are produced each year, with over half of this exported. Leading export markets are the USA, UK, Australia and Japan.]]></description>
-        <styleUrl>#poly-EDA29B-1200-176</styleUrl>
-        <MultiGeometry>
-          <Polygon>
-            <outerBoundaryIs>
-              <LinearRing>
-                <tessellate>1</tessellate>
-                <coordinates>
-                  4.3812195,48.0191538,0
-                  4.3437973,48.0141014,0
-                  4.3247429,47.9912447,0
-                  4.3199364,47.96424,0
-                  4.3638817,47.9587225,0
-                  4.4092003,47.9720556,0
-                  4.4162384,48.0080149,0
-                  4.3812195,48.0191538,0
-                </coordinates>
-              </LinearRing>
-            </outerBoundaryIs>
-          </Polygon>
-          <Polygon>
-            <outerBoundaryIs>
-              <LinearRing>
-                <tessellate>1</tessellate>
-                <coordinates>
-                  4.2896539,48.0705065,0
-                  4.5045546,47.9699276,0
-                  4.5409456,48.0328699,0
-                  4.6583589,48.054446,0
-                  4.7057368,48.1071983,0
-                  4.866409,48.1420324,0
-                  4.9419395,48.2335861,0
-                  4.8478692,48.2920939,0
-                  4.7174093,48.2523329,0
-                  4.575965,48.1855394,0
-                  4.3088663,48.1411152,0
-                  4.282098,48.1044481,0
-                  4.2896539,48.0705065,0
-                </coordinates>
-              </LinearRing>
-            </outerBoundaryIs>
-          </Polygon>
-          <Polygon>
-            <outerBoundaryIs>
-              <LinearRing>
-                <tessellate>1</tessellate>
-                <coordinates>
-                  4.4039463,48.6240906,0
-                  4.6291661,48.631352,0
-                  4.728043,48.7292787,0
-                  4.7005772,49.0579265,0
-                  4.5412754,49.2806037,0
-                  4.2995762,49.4701633,0
-                  4.1018223,49.48444,0
-                  3.7667393,49.4130148,0
-                  3.4701085,49.402292,0
-                  3.3053135,49.3772631,0
-                  3.3108067,49.3235869,0
-                  3.4426426,49.291353,0
-                  3.3327794,49.1370556,0
-                  3.3767247,48.9389962,0
-                  3.4316563,48.8233985,0
-                  3.5470128,48.5805003,0
-                  3.8326573,48.5259594,0
-                  3.9699864,48.5514191,0
-                  4.1292881,48.6422422,0
-                  4.3215489,48.7473924,0
-                  4.3764805,48.6894056,0
-                  4.4039463,48.6240906,0
-                </coordinates>
-              </LinearRing>
-            </outerBoundaryIs>
-          </Polygon>
-        </MultiGeometry>
       </Placemark>
       <Placemark>
         <name>Alsace</name>
@@ -5913,7 +6124,7 @@
       <Placemark>
         <name>Loire Valley
 </name>
-        <description><![CDATA[Varieties from this region include: Melon de Bourgogne, Chenin, Sauvignon Blanc, Pinot Noir, Cabernet Franc, Gamay and Grolleau.<br>Size: 11,500 hectares (apprx) (28,500 acres)<br>Wineries: 70 (apprx)<br>Noteworthy: Sancerre, Pouilly-Fumé, Vouvray, Nantes and Cheverny are popular wine producing towns/styles.]]></description>
+        <description><![CDATA[Vineyard size: 70,000 ha (apprx)<br>The Loire is the longest river in France, over 1000 km from its spring in the centre of France, south of Le Puy, to its mouth, near St Nazaire.<br>The river is the link between four distinct areas that would otherwise not have too much in common.<br>From West to East: The Atlantic, the Anjou, the Touraine and the Centre vineyards.<br>All styles of wines are made in the region, from Sparkling wine to sweet wines, including, white, Rose and red.<br>Varieties from this region can be related to their proximity to the sea. From the coast to the centre: Melon B, Chenin Blanc, Cabernet Franc, Gamay, Grolleau, Malbec, Sauvignon Blanc, Pinot Noir, Chardonnay...<br>Noteworthy appellation, from West to East: Muscadet, Anjou, Saumur, Chinon, Bourgueil, Vouvray, Touraine, Sancerre, Pouilly-Fumé,  are popular wine producing towns/styles.]]></description>
         <styleUrl>#poly-000000-1200-77</styleUrl>
         <MultiGeometry>
           <Polygon>
@@ -5921,10 +6132,10 @@
               <LinearRing>
                 <tessellate>1</tessellate>
                 <coordinates>
-                  -1.4191247,46.6211778,0
-                  -1.4156053,46.6310039,0
-                  -1.6254073,46.6301095,0
-                  -1.4191247,46.6211778,0
+                  -1.0032433,46.5014515,0
+                  -0.9997299,46.5112773,0
+                  -1.2090695,46.5104019,0
+                  -1.0032433,46.5014515,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -5934,10 +6145,10 @@
               <LinearRing>
                 <tessellate>1</tessellate>
                 <coordinates>
-                  1.5896755,46.5590592,0
-                  1.6495194,46.5438352,0
-                  1.5497705,46.5766966,0
-                  1.5896755,46.5590592,0
+                  1.9989234,46.439236,0
+                  2.0586363,46.4240135,0
+                  1.9591054,46.4568726,0
+                  1.9989234,46.439236,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -5947,11 +6158,11 @@
               <LinearRing>
                 <tessellate>1</tessellate>
                 <coordinates>
-                  -0.7741722,46.6001555,0
-                  -0.9049112,46.5534291,0
-                  -0.8186705,46.455732,0
-                  -0.6594133,46.5123072,0
-                  -0.7741722,46.6001555,0
+                  -0.3597156,46.4803807,0
+                  -0.4901733,46.4336629,0
+                  -0.4041357,46.33596,0
+                  -0.2452206,46.3925253,0
+                  -0.3597156,46.4803807,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -5961,13 +6172,13 @@
               <LinearRing>
                 <tessellate>1</tessellate>
                 <coordinates>
-                  -1.4191247,46.6211778,0
-                  -1.4421956,46.5566725,0
-                  -1.4011085,46.4978166,0
-                  -1.224206,46.4621096,0
-                  -1.128497,46.4829787,0
-                  -1.2583733,46.6139583,0
-                  -1.4191247,46.6211778,0
+                  -1.0032433,46.5014515,0
+                  -1.0262753,46.4369482,0
+                  -0.9852893,46.3780887,0
+                  -0.8087811,46.342367,0
+                  -0.7132786,46.3632287,0
+                  -0.8428475,46.4942185,0
+                  -1.0032433,46.5014515,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -5977,14 +6188,14 @@
               <LinearRing>
                 <tessellate>1</tessellate>
                 <coordinates>
-                  -1.6254073,46.6301095,0
-                  -1.6926642,46.6698971,0
-                  -1.7820211,46.7171712,0
-                  -1.9479137,46.7011294,0
-                  -1.8532572,46.569541,0
-                  -1.8078689,46.496339,0
-                  -1.7261298,46.4605024,0
-                  -1.6254073,46.6301095,0
+                  -1.2090695,46.5104019,0
+                  -1.2761699,46.5501959,0
+                  -1.3653195,46.5974788,0
+                  -1.530849,46.5814542,0
+                  -1.4364302,46.4498559,0
+                  -1.3911574,46.3766492,0
+                  -1.309605,46.3408045,0
+                  -1.2090695,46.5104019,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -5994,17 +6205,17 @@
               <LinearRing>
                 <tessellate>1</tessellate>
                 <coordinates>
-                  3.9265767,45.7337714,0
-                  4.0456942,45.5821756,0
-                  4.2477581,45.5050596,0
-                  4.2756475,45.6498701,0
-                  4.1871106,45.7884579,0
-                  4.2353323,46.1233022,0
-                  3.8484774,46.156291,0
-                  3.7523294,46.1009911,0
-                  3.909291,46.0356051,0
-                  3.9512011,45.9320381,0
-                  3.9265767,45.7337714,0
+                  4.3308677,45.6141005,0
+                  4.4497654,45.4625178,0
+                  4.6514188,45.3854252,0
+                  4.6792136,45.530239,0
+                  4.590832,45.6688163,0
+                  4.6388683,46.0036663,0
+                  4.2528438,46.0366118,0
+                  4.1569159,45.981302,0
+                  4.3135524,45.9159323,0
+                  4.3553952,45.8123699,0
+                  4.3308677,45.6141005,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -6014,36 +6225,36 @@
               <LinearRing>
                 <tessellate>1</tessellate>
                 <coordinates>
-                  1.6495194,46.5438352,0
-                  2.1824996,46.3660968,0
-                  2.5144016,46.4285547,0
-                  3.0280038,46.2242759,0
-                  3.1627452,46.0764291,0
-                  3.1366399,45.9872727,0
-                  3.011864,45.9209701,0
-                  3.0654426,45.8286235,0
-                  3.2333834,45.8113525,0
-                  3.2364023,45.7557256,0
-                  3.060828,45.6957494,0
-                  3.0479571,45.5951549,0
-                  3.2988866,45.4453942,0
-                  3.4486897,45.5973859,0
-                  3.2731219,45.7281029,0
-                  3.2730183,45.8050451,0
-                  3.3454926,45.8633182,0
-                  3.1907232,45.9879872,0
-                  3.1779757,46.1100262,0
-                  3.4234357,46.2813863,0
-                  3.4944214,46.4603303,0
-                  3.3047611,46.5273893,0
-                  2.9503958,46.3250246,0
-                  2.7589109,46.3327775,0
-                  2.5647592,46.5156176,0
-                  2.4490601,46.6978421,0
-                  2.1413752,46.6559055,0
-                  1.9990556,46.5054783,0
-                  2.0471651,46.4416639,0
-                  1.6495194,46.5438352,0
+                  2.0586363,46.4240135,0
+                  2.5904605,46.2462934,0
+                  2.9216296,46.308768,0
+                  3.4341389,46.1045229,0
+                  3.5686119,45.9566866,0
+                  3.5425776,45.8675281,0
+                  3.418081,45.8012159,0
+                  3.4715588,45.7088734,0
+                  3.6391424,45.6916157,0
+                  3.6421643,45.635989,0
+                  3.4669749,45.5759989,0
+                  3.454147,45.4754034,0
+                  3.7045686,45.3256629,0
+                  3.8540268,45.4776677,0
+                  3.6788101,45.6083694,0
+                  3.6786934,45.6853116,0
+                  3.7510021,45.7435909,0
+                  3.5965442,45.8682469,0
+                  3.5838038,45.9902849,0
+                  3.8287004,46.1616658,0
+                  3.899497,46.3406163,0
+                  3.7102404,46.4076585,0
+                  3.3566845,46.2052659,0
+                  3.1656164,46.2130057,0
+                  2.9718663,46.3958338,0
+                  2.8564006,46.5780518,0
+                  2.5494,46.5361004,0
+                  2.4074066,46.3856675,0
+                  2.4554157,46.3218549,0
+                  2.0586363,46.4240135,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -6053,57 +6264,57 @@
               <LinearRing>
                 <tessellate>1</tessellate>
                 <coordinates>
-                  1.5497705,46.5766966,0
-                  1.0237715,46.8068223,0
-                  1.8343835,47.1026773,0
-                  2.0473753,47.0117233,0
-                  2.4196884,47.0794896,0
-                  2.7280062,47.3107293,0
-                  3.0208392,47.2073226,0
-                  3.1644521,47.3608613,0
-                  2.9897501,47.5902765,0
-                  2.8548143,47.7303773,0
-                  2.5879349,47.8736267,0
-                  2.4279454,47.7944925,0
-                  2.7681707,47.4929754,0
-                  2.6444452,47.3640676,0
-                  1.9174206,47.1463129,0
-                  1.5923441,47.6175896,0
-                  2.1805155,47.8672332,0
-                  2.2024956,47.9913508,0
-                  1.8816414,48.0251062,0
-                  1.0866563,47.8949864,0
-                  0.6931864,47.992366,0
-                  0.2590182,47.6845831,0
-                  0.5623436,47.4992588,0
-                  -0.087584,47.414335,0
-                  -0.183326,47.7180089,0
-                  -0.3616738,47.7235009,0
-                  -0.7713327,47.6730513,0
-                  -0.979958,47.4332016,0
-                  -1.1524841,47.4372421,0
-                  -1.3422108,47.4364211,0
-                  -1.5214788,47.3894915,0
-                  -1.5898154,47.3566164,0
-                  -1.7311986,47.2102596,0
-                  -1.7958104,47.2141933,0
-                  -1.858657,47.2577302,0
-                  -1.9286111,47.2845781,0
-                  -2.0350655,47.2900032,0
-                  -2.0700472,47.279296,0
-                  -2.1570472,47.1187363,0
-                  -2.0451739,47.0970032,0
-                  -1.979544,47.0427674,0
-                  -2.0263431,47.0098897,0
-                  -1.8345764,46.9447773,0
-                  -1.6725859,46.8770877,0
-                  -1.5351104,46.8650695,0
-                  -1.260529,47.0717749,0
-                  -0.7462586,47.1705419,0
-                  -0.0891138,46.8704246,0
-                  0.2794756,46.6194619,0
-                  0.9255349,46.7794861,0
-                  1.5497705,46.5766966,0
+                  1.9591054,46.4568726,0
+                  1.4342641,46.6869922,0
+                  2.2430562,46.9828608,0
+                  2.4555779,46.8919143,0
+                  2.8270508,46.9596977,0
+                  3.1346457,47.1909555,0
+                  3.426834,47.0875691,0
+                  3.5700971,47.2411189,0
+                  3.3957535,47.4705207,0
+                  3.2611043,47.6106119,0
+                  2.994818,47.7538442,0
+                  2.8352065,47.6747011,0
+                  3.1746934,47.3732042,0
+                  3.0512664,47.2442885,0
+                  2.3259038,47.0264991,0
+                  2.0015344,47.4977665,0
+                  2.588338,47.7474298,0
+                  2.6102551,47.8715483,0
+                  2.2901409,47.9052912,0
+                  1.4969991,47.7751565,0
+                  1.104439,47.8725372,0
+                  0.6712581,47.5647621,0
+                  0.9738829,47.3794316,0
+                  0.3254266,47.2945252,0
+                  0.2299297,47.5982029,0
+                  0.0519912,47.603703,0
+                  -0.3567357,47.5532763,0
+                  -0.5649211,47.3134406,0
+                  -0.7370551,47.3174939,0
+                  -0.9263516,47.3166882,0
+                  -1.1052223,47.2697743,0
+                  -1.1734109,47.2369055,0
+                  -1.3145055,47.0905622,0
+                  -1.3789711,47.0945023,0
+                  -1.4416667,47.1380456,0
+                  -1.511457,47.1649008,0
+                  -1.6176701,47.1703373,0
+                  -1.6525754,47.159634,0
+                  -1.7394188,46.9990841,0
+                  -1.6278014,46.9773384,0
+                  -1.5623311,46.9230955,0
+                  -1.6090332,46.8902229,0
+                  -1.4177091,46.8250902,0
+                  -1.2560936,46.7573846,0
+                  -1.1189261,46.7453535,0
+                  -0.8449192,46.9520352,0
+                  -0.3317874,47.0507653,0
+                  0.3238551,46.7506148,0
+                  0.6916109,46.4996404,0
+                  1.3362455,46.659656,0
+                  1.9591054,46.4568726,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -6846,7 +7057,8 @@
       </Placemark>
       <Placemark>
         <name>East Anglia</name>
-        <styleUrl>#poly-C2185B-1200-77-nodesc</styleUrl>
+        <description><![CDATA[Varieties from this region include: Bacchus, Pinot Noir, Chardonnay, Pinot Blanc & Reichensteiner.<br>Size: ~300+ hectares (approx)<br>Wineries: ~40 vineyards (approx)<br>Noteworthy: East Anglia, covering Norfolk and Suffolk, is one of the driest and sunniest parts of the UK—an ideal climate for still wine production, especially aromatic white wines. The region is particularly well-known for its award-winning Bacchus, often compared to Sauvignon Blanc for its bright, citrusy character. Notable producers include Wyken Vineyards, Flint Vineyard, and Giffords Hall, which are gaining attention for both innovation and quality. With a focus on still wines rather than sparkling, East Anglia offers a distinctive contrast to the South's fizz-heavy regions.]]></description>
+        <styleUrl>#poly-C2185B-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -6872,7 +7084,8 @@
       </Placemark>
       <Placemark>
         <name>Kent</name>
-        <styleUrl>#poly-1A237E-1200-77-nodesc</styleUrl>
+        <description><![CDATA[Varieties from this region include: Pinot Noir, Pinot Meunier, Chardonnay, Bacchus & Ortega.<br>Size: 1,000+ hectares (apprx)<br>Wineries: 50+ (apprx)<br>Noteworthy: Home to England's leading winemaker, Chapel Down and one of the countries oldest vineyards, Biddenden, Kent has the largest area under vine in England. Champagne House Taittinger were the first from Champagne to invest in English wine, chosing Kent for their Domaine Evremond 30 hectare vineyard.]]></description>
+        <styleUrl>#poly-1A237E-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -6906,7 +7119,8 @@
       </Placemark>
       <Placemark>
         <name>Sussex</name>
-        <styleUrl>#poly-FFD600-1200-77-nodesc</styleUrl>
+        <description><![CDATA[Varieties from this region include: Pinot Noir, Pinot Meunier, Chardonnay, Bacchus & Pinot Blanc.<br>Size: 700+ hectares (apprx)<br>Wineries: 130+ vineyards (apprx)<br>Noteworthy: The largest wine producing region in England by volume, Sussex has its own PDO for still and sparkling wine. Well known and well regarded wineries like Nyetimber and Ridgeview contribute to the regions success with their award winning wines.]]></description>
+        <styleUrl>#poly-FFD600-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -6933,7 +7147,8 @@
       </Placemark>
       <Placemark>
         <name>Surrey</name>
-        <styleUrl>#poly-006064-1200-77-nodesc</styleUrl>
+        <description><![CDATA[Varieties from this region include: Chardonnay, Pinot Noir, Pinot Meunier, Bacchus & Seyval Blanc.<br>Size: ~200+ hectares (approx)<br>Wineries: ~20 vineyards (approx)<br>Noteworthy: Though smaller in size, Surrey punches well above its weight in terms of quality and prestige. The region is home to some of the most acclaimed English sparkling wine producers, including Denbies Wine Estate—one of the largest and most visited vineyards in the UK—and the internationally awarded Greyfriars Vineyard. Benefiting from chalk-rich soils similar to Champagne, Surrey excels in traditional method sparkling wines. Its proximity to London also makes it a popular destination for wine tourism and tastings.]]></description>
+        <styleUrl>#poly-006064-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -6957,7 +7172,8 @@
       </Placemark>
       <Placemark>
         <name>Hampshire</name>
-        <styleUrl>#poly-E65100-1200-77-nodesc</styleUrl>
+        <description><![CDATA[Varieties from this region include: Chardonnay, Pinot Noir, Pinot Meunier, Bacchus & Pinot Gris.<br>Size: ~300+ hectares (approx)<br>Wineries: ~30 vineyards (approx)<br>Noteworthy: Hampshire has earned a reputation for producing some of England’s finest sparkling wines, thanks to its chalky soils and cool-climate conditions that mirror those of Champagne. The region is home to several top-tier producers, including Hattingley Valley, Hambledon Vineyard (England’s oldest commercial vineyard), and Exton Park. Hampshire’s wines frequently win international awards and are known for their precision, minerality, and elegance. The region is also emerging as a leader in innovative winemaking and sustainability practices.]]></description>
+        <styleUrl>#poly-E65100-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -9385,7 +9601,8 @@
       <Placemark>
         <name>South West England
 </name>
-        <styleUrl>#poly-FBC02D-3101-77-nodesc</styleUrl>
+        <description><![CDATA[Varieties from this region include: Bacchus, Pinot Noir, Chardonnay, Seyval Blanc & Madeleine Angevine.<br>Size: ~300+ hectares (approx)<br>Wineries: ~80 vineyards (approx)<br>Noteworthy: Known for its mild, maritime climate and long growing season, South West England is a rising star in the UK wine scene. Regions like Devon, Cornwall, and Somerset are producing high-quality still and sparkling wines, often from small, artisanal vineyards. Notable producers such as Camel Valley in Cornwall and Sharpham in Devon have gained recognition for their award-winning wines, especially their sparkling whites and aromatic Bacchus. The area is also gaining traction for sustainable and organic viticulture.]]></description>
+        <styleUrl>#poly-FBC02D-3101-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -9416,6 +9633,335 @@
                 -2.8843889,50.7088895,0
                 -2.4394426,50.5241608,0
                 -1.8132219,50.712368,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Champagne Montgueux</name>
+        <styleUrl>#poly-F48FB1-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                3.9721727,48.3135727,0
+                3.9527673,48.3122027,0
+                3.9484711,48.3053499,0
+                3.9398908,48.2979246,0
+                3.934744,48.2793079,0
+                3.987964,48.287431,0
+                4.0459987,48.286846,0
+                4.0387938,48.3048915,0
+                4.0099441,48.3124309,0
+                3.9876268,48.3146018,0
+                3.9721727,48.3135727,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Champagne</name>
+        <description><![CDATA[Varieties from this region include: Pinot Noir, Pinot Meunier and Chardonnay.<br>Size: 34,200 hectares (apprx)<br>Wineries: 370 Houses, 16,200 growers/ 130 cooperatives (apprx)<br>Brands: over 7500 (apprx)<br>Noteworthy: Around 300million bottles are produced each year, with over half of this exported. Leading export markets are the USA, UK, Australia and Japan.]]></description>
+        <styleUrl>#poly-EDA29B-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                3.8382991,49.3985079,0
+                3.7945873,49.3931439,0
+                3.7563776,49.3877655,0
+                3.7085498,49.3930952,0
+                3.6592226,49.3984341,0
+                3.659324,49.4127047,0
+                3.5505632,49.4288375,0
+                3.4911924,49.4042391,0
+                3.4729837,49.3881976,0
+                3.4643984,49.3667909,0
+                3.5189847,49.3369287,0
+                3.5709648,49.33272,0
+                3.6380229,49.3132655,0
+                3.6566041,49.2703046,0
+                3.6586855,49.2201738,0
+                3.6954894,49.1973685,0
+                3.7465736,49.1737129,0
+                3.7281651,49.1582959,0
+                3.694661,49.1518511,0
+                3.6251976,49.1431368,0
+                3.5959555,49.1320551,0
+                3.5557372,49.1281516,0
+                3.5196618,49.1206494,0
+                3.4588849,49.1032407,0
+                3.3753907,49.0759736,0
+                3.3501515,49.074464,0
+                3.3194298,49.0567526,0
+                3.2564517,49.0466867,0
+                3.1934969,49.0383869,0
+                3.1610047,49.0235681,0
+                3.2446087,48.9750891,0
+                3.2648005,48.9440244,0
+                3.2987116,48.9490274,0
+                3.3115778,48.9211521,0
+                3.3755328,48.9095235,0
+                3.407893,48.9231401,0
+                3.4473579,48.9576778,0
+                3.4909957,48.9886039,0
+                3.6214003,48.9820024,0
+                3.5931875,48.9633713,0
+                3.5759785,48.9447356,0
+                3.5621419,48.9191918,0
+                3.5208565,48.9116889,0
+                3.4780949,48.8660115,0
+                3.4706471,48.818699,0
+                3.4147528,48.8176419,0
+                3.4055584,48.809341,0
+                3.4393636,48.7941086,0
+                3.4072509,48.7725463,0
+                3.4460464,48.7393955,0
+                3.4715357,48.7211415,0
+                3.4684807,48.7097477,0
+                3.4750393,48.6974493,0
+                3.4367396,48.6654668,0
+                3.4511836,48.6367827,0
+                3.4901485,48.6495767,0
+                3.508518,48.6460314,0
+                3.5507399,48.6207781,0
+                3.5009346,48.6050476,0
+                3.5499997,48.5965854,0
+                3.5757077,48.5999306,0
+                3.6233744,48.576014,0
+                3.6301345,48.5558757,0
+                3.6478734,48.5430079,0
+                3.7382513,48.5390646,0
+                3.7942705,48.531457,0
+                3.8222758,48.5212757,0
+                3.8502809,48.5310974,0
+                3.856628,48.57943,0
+                3.8927849,48.58179,0
+                3.9149891,48.6056728,0
+                3.9426994,48.6077532,0
+                4.001325,48.6641034,0
+                4.0347938,48.6668648,0
+                4.0792557,48.6977271,0
+                4.1284259,48.6918777,0
+                4.2023219,48.7023123,0
+                4.2524123,48.7372843,0
+                4.2970495,48.7450611,0
+                4.4220941,48.7496629,0
+                4.5334131,48.7170051,0
+                4.5945215,48.6951905,0
+                4.6343289,48.7089691,0
+                4.6755049,48.7355439,0
+                4.7444748,48.7974363,0
+                4.7874654,48.8516852,0
+                4.6133315,49.0344008,0
+                4.528572,49.0505665,0
+                4.5613339,49.164989,0
+                4.5638939,49.2663965,0
+                4.5119458,49.2821292,0
+                4.4580918,49.2795667,0
+                4.4455838,49.2737972,0
+                4.4352102,49.2812145,0
+                4.4224686,49.2817871,0
+                4.4138455,49.2877339,0
+                4.3924095,49.2956137,0
+                4.370958,49.3231913,0
+                4.3611769,49.3227822,0
+                4.3390363,49.3170001,0
+                4.3389358,49.3227422,0
+                4.3258381,49.3282984,0
+                4.3038115,49.3307205,0
+                4.2789737,49.3534579,0
+                4.265999,49.3583114,0
+                4.2530208,49.3667412,0
+                4.2421643,49.380916,0
+                4.2108312,49.3878,0
+                4.1951984,49.386766,0
+                4.1823083,49.4018202,0
+                4.1400403,49.404211,0
+                4.0908972,49.4025662,0
+                4.0410654,49.4053711,0
+                4.033112,49.3869163,0
+                4.0292834,49.3639912,0
+                4.0090327,49.3613903,0
+                3.9887759,49.3784613,0
+                3.9561533,49.3794314,0
+                3.9358852,49.3884419,0
+                3.9255503,49.4260997,0
+                3.9018424,49.4146269,0
+                3.9119664,49.4001772,0
+                3.893251,49.3951106,0
+                3.8807174,49.4022178,0
+                3.8668073,49.4066425,0
+                3.8382991,49.3985079,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Champagne Côtes des Bar</name>
+        <description><![CDATA[Varieties from this region include: Pinot Noir, Pinot Meunier and Chardonnay.<br>Size: 33,000 hectares (apprx) (81,545 acres)<br>Wineries: 100 Houses, 5000 growers/cooperatives (apprx)<br>Noteworthy: Around 300million bottles are produced each year, with over half of this exported. Leading export markets are the USA, UK, Australia and Japan.]]></description>
+        <styleUrl>#poly-F48FB1-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                4.8880722,48.2857518,0
+                4.7809282,48.2821463,0
+                4.6894195,48.2807846,0
+                4.6491695,48.2688801,0
+                4.5958927,48.2629001,0
+                4.5236257,48.1474732,0
+                4.354184,48.1225984,0
+                4.2799274,48.0503169,0
+                4.2387537,48.0104881,0
+                4.2223423,47.9724895,0
+                4.2264776,47.9497254,0
+                4.2498266,47.9269595,0
+                4.2717917,47.9244303,0
+                4.2978763,47.9264971,0
+                4.3108019,47.9595307,0
+                4.3495485,47.9581104,0
+                4.3642633,47.9589812,0
+                4.393915,47.9631868,0
+                4.4167047,47.9673864,0
+                4.4298799,47.9628471,0
+                4.4444253,47.9564669,0
+                4.4714707,47.961632,0
+                4.4944017,47.9677112,0
+                4.5159636,47.9664273,0
+                4.5356707,47.9690008,0
+                4.5608723,47.9697311,0
+                4.5493801,47.9876096,0
+                4.538137,47.9963183,0
+                4.5378782,48.0050267,0
+                4.5506678,48.0052384,0
+                4.5634602,48.0164737,0
+                4.5808125,48.0288354,0
+                4.6156824,48.0294858,0
+                4.6354438,48.0237022,0
+                4.6476497,48.0238843,0
+                4.6585588,48.0193819,0
+                4.6749593,48.0176335,0
+                4.6948948,48.0214972,0
+                4.7107121,48.0226025,0
+                4.7069496,48.0311912,0
+                4.7210414,48.0397796,0
+                4.7186535,48.0451547,0
+                4.7080244,48.0523656,0
+                4.7005007,48.0638026,0
+                4.6888535,48.0715677,0
+                4.6600575,48.0788351,0
+                4.6837044,48.0839583,0
+                4.7061738,48.0906465,0
+                4.7046135,48.0991683,0
+                4.7498881,48.1153567,0
+                4.7791837,48.137356,0
+                4.7669502,48.1623291,0
+                4.7287329,48.1934948,0
+                4.7465783,48.197347,0
+                4.7857118,48.1970727,0
+                4.8454298,48.1868893,0
+                4.8722393,48.2388196,0
+                4.8735329,48.2519808,0
+                4.8851295,48.2651417,0
+                4.8880722,48.2857518,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Champagne Region</name>
+        <description><![CDATA[Varieties from this region include: Pinot Noir, Pinot Meunier and Chardonnay.<br>Size: 33,000 hectares (apprx) (81,545 acres)<br>Wineries: 100 Houses, 5000 growers/cooperatives (apprx)<br>Noteworthy: Around 300million bottles are produced each year, with over half of this exported. Leading export markets are the USA, UK, Australia and Japan.]]></description>
+        <styleUrl>#icon-1899-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            4.3224395,48.5425082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Champagne Montagne de Reims</name>
+        <styleUrl>#poly-F48FB1-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                3.9454431,49.2211075,0
+                3.8671655,49.1025677,0
+                4.0415734,49.0377901,0
+                4.228341,49.0197813,0
+                4.2324609,49.122344,0
+                4.1459436,49.1897041,0
+                3.9454431,49.2211075,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Champagne Vallée de la Marne</name>
+        <styleUrl>#poly-F48FB1-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                3.2958764,49.0431914,0
+                3.2876367,49.0215825,0
+                3.473031,49.0422912,0
+                3.7188501,49.0737881,0
+                3.9330834,49.0377901,0
+                3.9468163,49.0575922,0
+                3.7215966,49.0989712,0
+                3.2958764,49.0431914,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Champagne Côte des Blancs</name>
+        <styleUrl>#poly-F48FB1-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                3.9372033,48.8605711,0
+                3.999688,48.8605712,0
+                4.0473541,48.9424294,0
+                4.0662927,49.027886,0
+                3.9303369,49.0341888,0
+                3.9790947,48.9649642,0
+                3.9372033,48.8605711,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Côte de Sézanne</name>
+        <styleUrl>#poly-F48FB1-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                3.646687,48.7428619,0
+                3.5629133,48.638606,0
+                3.7441944,48.5741325,0
+                3.9021283,48.6095572,0
+                3.9337151,48.6785207,0
+                3.7318341,48.7501065,0
+                3.646687,48.7428619,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -10329,8 +10875,9 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Del-Balaton</name>
-        <styleUrl>#poly-817717-3801-77-nodesc</styleUrl>
+        <name>Dél-Balaton</name>
+        <description><![CDATA[Dél-Balaton<br>Varieties from this region include: Olaszrizling, Chardonnay, Sauvignon Blanc, Szürkebarát, Kékfrankos, Merlot and Cabernet Sauvignon.<br>Size: TBC<br>Wineries: many producers, with the wider Balaton wine area being one of Hungary’s most winery-dense regions.<br>Noteworthy: A warm lake-influenced area producing both easygoing whites and increasingly serious reds, often tied to the broader Balaton wine identity.]]></description>
+        <styleUrl>#poly-817717-3801-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -10379,8 +10926,9 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Szrkszard</name>
-        <styleUrl>#poly-880E4F-1200-77-nodesc</styleUrl>
+        <name>Szekszárd</name>
+        <description>Szekszárd</description>
+        <styleUrl>#poly-880E4F-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -10399,7 +10947,8 @@
       </Placemark>
       <Placemark>
         <name>Mecsekalja</name>
-        <styleUrl>#poly-01579B-2901-77-nodesc</styleUrl>
+        <description><![CDATA[Mecsekalja<br>Varieties from this region include: Cirfandli, Chardonnay, Sauvignon Blanc, Olaszrizling, Pinot Noir, Kékfrankos, Cabernet Franc and Cabernet Sauvignon.<br>Size: around 2,100 hectares.<br>Wineries: a smaller regional cluster of producers, with the area centered around the Mecsek Hills.<br>Noteworthy: A sub-Mediterranean southern Hungarian region known for fuller, more polished wines and the rare local grape Cirfandli.]]></description>
+        <styleUrl>#poly-01579B-2901-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -10467,7 +11016,8 @@
       </Placemark>
       <Placemark>
         <name>Kunsag</name>
-        <styleUrl>#poly-A52714-1200-77-nodesc</styleUrl>
+        <description><![CDATA[Kunság<br>Varieties from this region include: Kövidinka, Kunleány, Arany Sárfehér, Cserszegi Fűszeres, Bianca, Ezerjó, Olaszrizling, Riesling, Kadarka, Kékfrankos, Zweigelt and Cabernet varieties.<br>Size: 23,300+ hectares in the Kunság PDO<br>Wineries: a large number of producers spread across 95 towns and villages, making it Hungary’s largest wine district.<br>Noteworthy: Known for light, fresh, often sandy-soil wines, with a big output of easy-drinking whites and sparkling wine]]></description>
+        <styleUrl>#poly-A52714-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -10621,8 +11171,303 @@
     <Folder>
       <name>Eastern Europe</name>
       <Placemark>
+        <name>Transylvania - Aiud</name>
+        <description><![CDATA[Transylvania - Aiud <br>Varieties from this region include: Fetească Regală, Fetească Albă, Riesling, Sauvignon Blanc, Traminer and Pinot Noir.<br>Size: not clearly stated as one unified figure in the sources I found.<br>Wineries: many medium-sized producers, especially around Târnave, Alba, Aiud and Sebeș-Apold.<br>Noteworthy: One of Romania’s best regions for crisp, aromatic whites and sparkling wines, with altitude helping to preserve freshness.]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                23.7062241,46.3054375,0
+                23.847673,46.2328147,0
+                23.9685227,46.2199889,0
+                24.0028549,46.2508607,0
+                24.1051651,46.258932,0
+                24.087999,46.3068605,0
+                24.0598465,46.3519035,0
+                23.8964249,46.389332,0
+                23.8517929,46.4423513,0
+                23.7975479,46.4603283,0
+                23.6567856,46.4333606,0
+                23.6636521,46.3793852,0
+                23.6636521,46.3381575,0
+                23.6238266,46.3258305,0
+                23.7062241,46.3054375,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Transylvania - Alba</name>
+        <description><![CDATA[Transylvania - Alba<br>Varieties from this region include: Fetească Regală, Fetească Albă, Riesling, Sauvignon Blanc, Traminer and Pinot Noir.<br>Size: not clearly stated as one unified figure in the sources I found.<br>Wineries: many medium-sized producers, especially around Târnave, Alba, Aiud and Sebeș-Apold.<br>Noteworthy: One of Romania’s best regions for crisp, aromatic whites and sparkling wines, with altitude helping to preserve freshness.]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                23.7584091,46.0243822,0
+                23.7330032,46.0744208,0
+                23.7501694,46.1619981,0
+                23.6396195,46.1234622,0
+                23.5771347,46.1857722,0
+                23.5675217,46.2541843,0
+                23.4761978,46.2009823,0
+                23.4164597,46.124414,0
+                23.5002304,46.1025178,0
+                23.5489823,46.0553638,0
+                23.4686447,46.0529812,0
+                23.4885574,46.0172301,0
+                23.6070038,45.9940987,0
+                23.6787583,46.0215215,0
+                23.7584091,46.0243822,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Transylvania - Târnave</name>
+        <description><![CDATA[Transylvania - Târnave<br>Varieties from this region include: Fetească Regală, Fetească Albă, Riesling, Sauvignon Blanc, Traminer and Pinot Noir.<br>Size: not clearly stated as one unified figure in the sources I found.<br>Wineries: many medium-sized producers, especially around Târnave, Alba, Aiud and Sebeș-Apold.<br>Noteworthy: One of Romania’s best regions for crisp, aromatic whites and sparkling wines, with altitude helping to preserve freshness.]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                24.537786,46.5225888,0
+                24.4668898,46.4244651,0
+                24.2966017,46.3380173,0
+                24.1719756,46.2450222,0
+                24.0658889,46.2573673,0
+                24.0075267,46.2501495,0
+                24.0109905,46.2258286,0
+                23.9177451,46.2060693,0
+                23.8600668,46.1889592,0
+                23.6039481,46.213672,0
+                23.6753592,46.1661376,0
+                23.7618765,46.162333,0
+                23.7371573,46.06237,0
+                23.9156851,46.1395003,0
+                23.9074454,46.0404491,0
+                24.0543875,46.0766615,0
+                23.9568839,45.9526787,0
+                24.1628775,45.9479045,0
+                24.2301688,46.0080284,0
+                24.2171225,46.0371126,0
+                24.212316,46.0833297,0
+                24.3874106,46.0928541,0
+                24.4842276,46.1551988,0
+                24.5213065,46.1314115,0
+                24.7671256,46.1337907,0
+                24.776052,46.1333148,0
+                24.7787985,46.1375972,0
+                24.8323569,46.1399761,0
+                24.8811087,46.1033292,0
+                24.9291739,46.1247492,0
+                24.9305472,46.2663871,0
+                24.8598227,46.3076689,0
+                24.8742423,46.3252161,0
+                24.8110709,46.3437057,0
+                24.7939047,46.4048191,0
+                24.7341666,46.3896656,0
+                24.6648154,46.4346404,0
+                24.6263632,46.5003787,0
+                24.537786,46.5225888,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Transylvania - Sebeș-Apold</name>
+        <description><![CDATA[Transylvania - Sebeș-Apold<br>Varieties from this region include: Fetească Regală, Fetească Albă, Riesling, Sauvignon Blanc, Traminer and Pinot Noir.<br>Size: not clearly stated as one unified figure in the sources I found.<br>Wineries: many medium-sized producers, especially around Târnave, Alba, Aiud and Sebeș-Apold.<br>Noteworthy: One of Romania’s best regions for crisp, aromatic whites and sparkling wines, with altitude helping to preserve freshness.]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                24.0428447,45.7920937,0
+                23.9801956,45.8189893,0
+                23.9046646,45.8677792,0
+                23.9939285,45.9103158,0
+                24.1546036,45.9361086,0
+                23.9747025,45.9470909,0
+                23.8511063,45.9026712,0
+                23.8332535,45.9418388,0
+                23.8977982,46.0372536,0
+                23.8353134,46.0663223,0
+                23.7549759,46.0179453,0
+                23.6825348,46.0179453,0
+                23.6070038,45.9940987,0
+                23.5379959,46.0069772,0
+                23.5531021,45.9554454,0
+                23.599794,45.9093603,0
+                23.6574722,45.882838,0
+                23.7803818,45.8759066,0
+                23.7278534,45.8302339,0
+                23.6224533,45.8110928,0
+                23.6190201,45.7869177,0
+                23.6801315,45.7742276,0
+                23.8229538,45.8012804,0
+                23.9089489,45.7734184,0
+                24.0366649,45.7676709,0
+                24.0428447,45.7920937,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Dealu Mare - Ploiești–Buzău corridor</name>
+        <description><![CDATA[Dealu Mare - Ploiești–Buzău corridor<br>Varieties from this region include: Fetească Neagră, Fetească Albă, Fetească Regală, Busuioacă de Bohotin, Tămâioasă Românească, Cabernet Sauvignon, Merlot, Chardonnay, Sauvignon Blanc, Pinot Gris, Riesling Italico and Pinot Noir.<br>Size: around 15,000 hectares in the Dealu Mare vineyard area, spanning about 65 km across Prahova and Buzău counties.<br>Wineries: 67+ wineries.<br>Noteworthy: Often called Romania’s “Bordeaux” or “Napa Valley” style region, Dealu Mare is the country’s best-known zone for structured, age-worthy reds and increasingly polished premium cuvées.]]></description>
+        <styleUrl>#poly-FF5252-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                26.1073091,44.9222575,0
+                26.2353685,44.8061841,0
+                26.3431718,44.802043,0
+                26.3084962,44.8828626,0
+                26.3874605,44.9358692,0
+                26.5598085,44.9149642,0
+                26.7726686,45.0266933,0
+                26.802881,45.1197961,0
+                26.94433,45.1798443,0
+                27.0761659,45.1953304,0
+                27.1304109,45.3359634,0
+                27.2169282,45.4227785,0
+                27.1880891,45.5806322,0
+                27.1798494,45.647874,0
+                27.1551302,45.7150352,0
+                27.2045686,45.7677481,0
+                27.2114351,45.8548548,0
+                27.2608736,45.9274988,0
+                27.3254182,45.9475547,0
+                27.2402742,45.9656943,0
+                27.1249178,45.9485096,0
+                26.9848421,45.9141241,0
+                27.0150545,45.7667901,0
+                27.0480135,45.6296306,0
+                27.0933321,45.4584305,0
+                27.107065,45.414103,0
+                27.0054414,45.3986766,0
+                27.0438936,45.3282401,0
+                26.9477632,45.2132309,0
+                26.8186739,45.1648382,0
+                26.5165498,45.0291197,0
+                26.4533784,44.9708559,0
+                26.3435152,45.0349429,0
+                26.1018159,45.0524087,0
+                26.1073091,44.9222575,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Arad - Crișana</name>
+        <description><![CDATA[Arad - Crișana<br>Varieties from this region include: Cadarcă, Fetească Regală, Fetească Albă, Welschriesling, Traminer, Furmint, Merlot and Cabernet Sauvignon.<br>Size: not clearly stated in the sources I found.<br>Wineries: a moderate number of producers, with Miniș-Măderat and Diosig among the best-known areas.<br>Noteworthy: Well regarded for Cadarcă and for combining native grapes with international styles.]]></description>
+        <styleUrl>#poly-F57C00-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                21.6884215,46.3262757,0
+                21.6492827,46.3016136,0
+                21.6128905,46.2603272,0
+                21.5318663,46.1857432,0
+                21.5380461,46.1072494,0
+                21.6218169,46.0991559,0
+                21.6726287,46.074868,0
+                21.7062743,46.104393,0
+                21.8504698,46.1807514,0
+                21.8497832,46.2857196,0
+                21.9850524,46.2510691,0
+                21.9926055,46.3303059,0
+                21.8484099,46.3284093,0
+                21.9157012,46.4084812,0
+                21.8892653,46.4146357,0
+                21.8683226,46.4496558,0
+                21.8281539,46.4624278,0
+                21.7979415,46.4075343,0
+                21.8164809,46.3845667,0
+                21.8219741,46.3490308,0
+                21.7883284,46.3203483,0
+                21.695288,46.3383655,0
+                21.6884215,46.3262757,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Crișana</name>
+        <description><![CDATA[Crișana<br>Varieties from this region include: Cadarcă, Fetească Regală, Fetească Albă, Welschriesling, Traminer, Furmint, Merlot and Cabernet Sauvignon.<br>Size: 120ha+.<br>Wineries: a moderate number of producers, with Miniș-Măderat and Diosig among the best-known areas.<br>Noteworthy: Well regarded for Cadarcă and for combining native grapes with international styles.]]></description>
+        <styleUrl>#poly-F57C00-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                22.1746018,47.2269085,0
+                22.5063232,47.2418171,0
+                22.6326659,47.2157053,0
+                22.6889709,47.1914471,0
+                22.7590087,47.196113,0
+                22.7672485,47.1625093,0
+                22.7329162,47.1214093,0
+                22.7878478,47.083083,0
+                22.8620055,47.1419633,0
+                22.8043273,47.1709122,0
+                22.7988342,47.2007785,0
+                22.8304198,47.225965,0
+                22.859259,47.2334254,0
+                22.9004577,47.2147725,0
+                22.9265502,47.1755799,0
+                22.954016,47.1513034,0
+                22.9938415,47.1625093,0
+                23.0473998,47.1606418,0
+                23.0570129,47.2026445,0
+                23.0226806,47.2250324,0
+                23.010321,47.2641884,0
+                23.0666259,47.2902763,0
+                23.0226806,47.3219372,0
+                22.8537658,47.341483,0
+                22.7947143,47.341483,0
+                22.7397826,47.3666027,0
+                22.6560119,47.3666027,0
+                22.5543884,47.3033155,0
+                22.5049499,47.2427494,0
+                22.187033,47.2315604,0
+                22.1965744,47.2567432,0
+                22.3586228,47.3238099,0
+                22.317424,47.3703339,0
+                22.1965744,47.3628929,0
+                22.1526291,47.4130999,0
+                22.0153,47.3814936,0
+                21.8834641,47.2753814,0
+                21.8175461,47.1466445,0
+                21.9356491,47.0550328,0
+                22.2515061,47.0250846,0
+                22.383342,47.0512902,0
+                22.2569992,47.0830939,0
+                22.1746018,47.2269085,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
         <name>Black Sea Coast</name>
-        <styleUrl>#poly-F48FB1-1200-77-nodesc</styleUrl>
+        <description><![CDATA[Black Sea Coast<br>Varieties from this region include: Dimyat, Muscat Ottonel, Riesling, Sauvignon Blanc, Chardonnay, Traminer, Pinot Noir, Pamid, Cabernet Sauvignon and Merlot.<br>Size: 30,000+ hectares of vineyards, or roughly 30% of Bulgaria’s vineyard area.<br>Wineries: Bulgaria's coast contains many of the country’s most active producers, including leading estates around Varna, Shumen and Burgas.<br>Noteworthy: A maritime region known especially for fresh, aromatic white wines and some surprisingly strong reds, with Dimyat as the signature local grape.]]></description>
+        <styleUrl>#poly-F48FB1-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -10670,7 +11515,8 @@
       </Placemark>
       <Placemark>
         <name>Valley of Roses</name>
-        <styleUrl>#poly-FFEA00-1200-77-nodesc</styleUrl>
+        <description><![CDATA[Valley of Roses<br>Varieties from this region include: Red Misket, Cherven Misket, Mavrud, Merlot, Cabernet Sauvignon, Riesling, Rkatsiteli, Traminer, Muscat Ottonel, Chardonnay and Sauvignon Blanc.<br>Size: TBC - Bulgaria’s smallest wine region.<br>Wineries: a relatively small number of wineries compared with the bigger Bulgarian regions, with examples such as Chateau Copsa and Domain Trifonoff.<br>Noteworthy: Known for fragrant, elegant whites and increasingly interesting reds, with Red Misket as the signature local grape and a close link to the country’s rose-oil culture.]]></description>
+        <styleUrl>#poly-FFEA00-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -10868,21 +11714,459 @@
           </outerBoundaryIs>
         </Polygon>
       </Placemark>
+      <Placemark>
+        <name>Kakheti</name>
+        <styleUrl>#poly-880E4F-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                46.5156474,41.0698251,0
+                46.636497,41.1484636,0
+                46.7079082,41.3095844,0
+                46.2629619,41.5854541,0
+                46.1530986,41.720899,0
+                45.8509746,41.8315056,0
+                45.329124,41.9255755,0
+                45.2906718,42.141818,0
+                45.1039043,42.2516964,0
+                44.9665752,41.9868509,0
+                45.0709453,41.8478755,0
+                45.1917949,41.6634723,0
+                45.3071513,41.5895627,0
+                45.3510966,41.4991137,0
+                45.4225078,41.4250159,0
+                45.4664531,41.4661918,0
+                45.5763164,41.4105982,0
+                45.5927959,41.3714482,0
+                45.7658305,41.3570186,0
+                45.7438579,41.2868863,0
+                45.8756938,41.2063476,0
+                46.0102763,41.1836135,0
+                46.117393,41.1815464,0
+                46.2766948,41.2063476,0
+                46.3893046,41.1195025,0
+                46.5156474,41.0698251,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Kartli</name>
+        <styleUrl>#poly-FF5252-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                44.192039,41.3626877,0
+                44.343101,41.2306229,0
+                44.7083964,41.2554054,0
+                45.0819316,41.3338214,0
+                45.3346171,41.5212237,0
+                45.0984111,41.7736657,0
+                44.8594585,41.8350868,0
+                44.8567119,42.0128751,0
+                44.7743144,42.1290883,0
+                44.5024028,42.0801823,0
+                44.2607036,42.2064456,0
+                44.008018,42.2898039,0
+                43.9146342,42.2023765,0
+                43.6839213,42.1127905,0
+                43.5356059,42.0189969,0
+                43.4779277,41.8923601,0
+                43.5465922,41.8350868,0
+                43.7855449,41.9311949,0
+                44.139854,41.8862261,0
+                44.3897929,41.7798105,0
+                44.6891704,41.775714,0
+                44.5545879,41.6896283,0
+                44.7138896,41.6136953,0
+                44.4337382,41.6403847,0
+                44.3815532,41.5376728,0
+                44.2401042,41.4677354,0
+                44.192039,41.3626877,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Imereti</name>
+        <styleUrl>#poly-4E342E-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                42.2645484,42.154525,0
+                42.21511,42.070988,0
+                42.3167335,42.042438,0
+                42.3716651,42.0689492,0
+                42.4458228,41.9914239,0
+                42.6188575,41.9403688,0
+                42.7479469,41.8299503,0
+                43.0528175,41.8299503,0
+                43.3412086,41.8606413,0
+                43.4538185,41.9403688,0
+                43.3109962,41.9485404,0
+                43.5691749,42.113789,0
+                43.6021339,42.3456331,0
+                43.4400855,42.3618709,0
+                43.1874,42.3090827,0
+                43.003379,42.3841909,0
+                42.5831519,42.4713661,0
+                42.4265968,42.3679589,0
+                42.2645484,42.154525,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Samegrelo</name>
+        <styleUrl>#poly-EDA29B-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                41.549748,42.4107286,0
+                41.7063032,42.0691197,0
+                41.7021833,42.141459,0
+                41.7694745,42.1445138,0
+                41.7928205,42.1943875,0
+                41.9946943,42.1821772,0
+                42.0441327,42.1567314,0
+                42.229527,42.1088656,0
+                42.4314008,42.4147842,0
+                42.5831519,42.4713661,0
+                42.035893,42.752504,0
+                42.0619855,42.8915066,0
+                42.2212873,42.9347552,0
+                42.2157941,42.9819921,0
+                42.0166669,42.9156491,0
+                41.9960676,42.8351374,0
+                42.0084272,42.7373762,0
+                41.9493757,42.6384503,0
+                41.7131696,42.4978669,0
+                41.6554914,42.4725485,0
+                41.6527448,42.4249222,0
+                41.549748,42.4107286,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Guria</name>
+        <styleUrl>#poly-CE93D8-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                41.7269025,42.1187513,0
+                41.7241559,42.0412868,0
+                41.7735944,41.9065185,0
+                41.8546578,41.9014193,0
+                41.9136701,41.8349348,0
+                42.1251569,41.7858025,0
+                42.3476301,41.9167382,0
+                42.5096784,41.869714,0
+                42.4931989,41.9576007,0
+                42.3723493,42.0535243,0
+                42.2844587,42.0331272,0
+                42.1910749,42.0718762,0
+                42.1800886,42.1146766,0
+                41.9493757,42.1879815,0
+                41.8340192,42.1778053,0
+                41.8642316,42.1370843,0
+                41.7269025,42.1187513,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Ajara</name>
+        <styleUrl>#poly-F9A825-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                41.8175397,41.7878504,0
+                41.710423,41.6853737,0
+                41.5703473,41.621756,0
+                41.5428815,41.5149014,0
+                41.8559919,41.4449395,0
+                41.9878278,41.5251836,0
+                41.9219098,41.5745152,0
+                41.993321,41.6279153,0
+                42.1883283,41.6053284,0
+                42.5426374,41.597113,0
+                42.4217878,41.6669105,0
+                42.2240339,41.6669105,0
+                42.2679792,41.7243341,0
+                42.1224103,41.6730655,0
+                41.9960676,41.6894759,0
+                41.8724714,41.6361268,0
+                41.8642316,41.7161339,0
+                41.993321,41.7345829,0
+                42.0015607,41.8021841,0
+                41.8889509,41.8451659,0
+                41.8175397,41.7878504,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Meskheti</name>
+        <styleUrl>#poly-0288D1-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                42.6332746,41.6812712,0
+                42.9189191,41.5909507,0
+                43.0589948,41.595059,0
+                43.2732282,41.5498541,0
+                43.2265363,41.6197028,0
+                43.1029401,41.6402321,0
+                43.3418928,41.7755618,0
+                43.5011945,41.7038316,0
+                43.5478864,41.7919461,0
+                43.43253,41.8349348,0
+                43.5066877,41.8553955,0
+                43.4627424,41.9106066,0
+                43.3830915,41.8778946,0
+                43.0232892,41.7140837,0
+                42.6332746,41.6812712,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Lechkhumi</name>
+        <styleUrl>#poly-673AB7-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                42.7456927,42.6714808,0
+                42.5891375,42.490479,0
+                42.6262164,42.4621184,0
+                42.7168536,42.5329959,0
+                42.8431963,42.5967169,0
+                43.0038714,42.58964,0
+                43.242824,42.6361307,0
+                43.1288409,42.7390949,0
+                42.9352068,42.7784184,0
+                42.7209734,42.8015975,0
+                42.7003741,42.7411121,0
+                42.7456927,42.6714808,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Racha</name>
+        <styleUrl>#poly-FFFF8D-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                43.4395194,42.60632,0
+                43.2362723,42.6204692,0
+                43.0192923,42.5830679,0
+                42.8682303,42.5790232,0
+                42.7721,42.5517144,0
+                42.7103019,42.4514798,0
+                42.8215384,42.4231015,0
+                42.8490043,42.4869347,0
+                42.9162955,42.5264178,0
+                43.0934501,42.5223694,0
+                43.0687308,42.4504665,0
+                43.126409,42.4352652,0
+                43.1909537,42.5071855,0
+                43.4642386,42.5567725,0
+                43.4395194,42.60632,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Southern Greece</name>
+        <description><![CDATA[Signature Wines:<br>Agiorgitiko: A versatile red grape from Nemea that produces smooth, medium-to-full-bodied wines with flavours of sweet raspberry, blackberry, and baking spices.<br>Moschofilero: An aromatic, pink-skinned grape from the high-altitude Mantineia plateau that creates crisp, vibrant white wines with intense notes of rose petal and citrus.<br>Assyrtiko: The flagship bone-dry, high-acid white wine featuring flinty mineral and lemon peel notes.<br><br>Terroir:<br>Climate: Purely Mediterranean with intense sunshine, hot summers, mild winters, and strong, cooling sea breezes (like the Meltemi winds) that prevent grapes from baking.<br>Soil and Landscape: A diverse mix of volcanic ash and schist on the islands, alongside poor, limestone-rich soils and high-altitude microclimates on the Peloponnese mainland.]]></description>
+        <styleUrl>#poly-F9A825-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                26.4322839,35.1602878,0
+                26.1246667,35.4203428,0
+                23.520907,35.679561,0
+                23.3121667,36.4698413,0
+                22.9056726,37.2871176,0
+                23.4110437,37.4268408,0
+                23.1363855,37.9917865,0
+                22.8507409,38.1388301,0
+                21.7630945,38.3286828,0
+                20.9281335,38.0696699,0
+                19.9283777,39.8633254,0
+                19.4010339,39.7282674,0
+                20.0711999,39.1768707,0
+                20.3238855,38.0696699,0
+                20.8182702,37.5401743,0
+                21.345614,37.5750116,0
+                21.6422448,36.7256288,0
+                22.1476159,36.8136347,0
+                22.3124109,36.3902867,0
+                22.685946,36.4433322,0
+                22.6914392,36.6639647,0
+                23.2077966,36.270802,0
+                23.5318933,35.3442063,0
+                23.520907,35.1872288,0
+                24.0482507,34.732535,0
+                26.23453,34.9174178,0
+                26.4322839,35.1602878,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Norrthern Greece</name>
+        <description><![CDATA[Signature Wines:<br>Xinomavro: A powerful, high-acid, and tannic red wine featuring savory notes of sun-dried tomato, olive, and red currant. It is often compared to Italy's Nebbiolo.<br>Malagousia: A once-endangered white grape revived in the north, producing highly aromatic wines with notes of peach, citrus, and jasmine.<br><br>Terroir: <br>Climate: Continental with colder winters, significant snowfall in mountainous areas, and cooler summers than the rest of Greece.<br>Soil and Landscape: Dominated by high-altitude mountainous slopes (such as around Mount Vermio and the Pindus range), limestone, and well-draining clay-loam soils that preserve grape acidity]]></description>
+        <styleUrl>#poly-9FA8DA-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                26.0489412,40.7158794,0
+                26.3886305,41.2443483,0
+                25.5320617,41.2867834,0
+                25.5435701,40.898824,0
+                24.7855135,40.9071277,0
+                24.6536776,41.2136306,0
+                24.8734041,41.3374815,0
+                24.3039318,41.5576441,0
+                23.2803866,41.3127301,0
+                23.4012362,40.9652243,0
+                23.0386873,40.7658234,0
+                22.258658,41.0564157,0
+                22.0279451,41.1309329,0
+                21.5335604,40.8323571,0
+                21.017203,40.8406691,0
+                21.1270662,40.5073759,0
+                20.8633944,40.4237923,0
+                20.5997225,39.9790648,0
+                20.4019686,39.9874829,0
+                20.4459139,39.6922334,0
+                20.1382967,39.6330313,0
+                20.7864901,39.6330313,0
+                21.2589022,39.5568397,0
+                21.4236971,40.0379695,0
+                21.9180819,39.9790648,0
+                22.0938631,40.1724181,0
+                22.5662752,39.9116828,0
+                22.7420565,40.0379695,0
+                22.6431795,40.3735923,0
+                22.8409334,40.5908553,0
+                22.8409334,40.3233549,0
+                23.730826,39.7936048,0
+                24.1592928,40.0295577,0
+                24.0933748,40.2898424,0
+                24.0604159,40.6825626,0
+                24.4449373,40.657564,0
+                25.5875155,40.3149783,0
+                26.0489412,40.7158794,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Central Greece</name>
+        <description><![CDATA[Signature Wine: <br>Savatiano (white), Retsina (resinated wine), Xinomavro-based blends from Mount Olympus.<br><br>Terroir:<br> Warm Mediterranean climate cooled by altitude and sea breezes.]]></description>
+        <styleUrl>#poly-006064-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                21.4676424,39.4544035,0
+                21.2479159,39.3015443,0
+                21.8741366,38.7895995,0
+                22.3135897,38.3343009,0
+                23.0167147,38.1962861,0
+                23.2144686,37.9194704,0
+                23.4891268,37.3365037,0
+                24.1263338,37.6937876,0
+                24.7964998,38.0147439,0
+                24.6536776,38.9948226,0
+                24.1922518,39.4628859,0
+                22.7530428,39.8519562,0
+                22.258658,39.5137583,0
+                22.1487948,39.7422236,0
+                21.7532869,39.8941144,0
+                21.4676424,39.4544035,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Angean Islands</name>
+        <description><![CDATA[Signature Wine: <br>Assyrtiko (crisp white), Vinsanto (sweet sun-dried wine).<br><br>Terroir: Volcanic soils, extreme sea breezes, and basket-trained vines (kouloura) to protect grapes from winds.]]></description>
+        <styleUrl>#poly-E65100-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                24.1199515,37.5702419,0
+                24.1089651,35.9330673,0
+                27.3059866,35.1284162,0
+                28.690264,36.3854421,0
+                27.4488089,36.4915035,0
+                27.3719046,36.8615749,0
+                26.8994925,37.2298629,0
+                27.0752737,37.804982,0
+                26.3611624,38.1168117,0
+                26.2842581,38.6507417,0
+                26.7127249,39.0272647,0
+                26.4380667,39.4527097,0
+                25.7349417,39.4696738,0
+                25.4053518,40.2790796,0
+                24.7791311,40.0019241,0
+                25.4712698,38.3411976,0
+                24.6582815,37.9264064,0
+                24.1199515,37.5702419,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
     </Folder>
     <Folder>
       <name>Australasia</name>
       <Placemark>
         <name>Western Australia</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            116.6574442,-31.2619734,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Western Australia</name>
-        <styleUrl>#poly-006064-1200-115-nodesc</styleUrl>
+        <description><![CDATA[Varieties from this region include: Shiraz, Cabernet Sauvignon, Chardonnay<br>Size: 7,000 (approx.)<br>Wineries: 50 (approx.)<br>Noteworthy: Western Australia is known for producing big and bold red wines, particularly Shiraz, due to its warm and dry climate.]]></description>
+        <styleUrl>#poly-006064-1200-115</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -10921,17 +12205,8 @@
       <Placemark>
         <name>Southern Australia
 </name>
-        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            139.4825027,-34.7514716,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Southern Australia
-</name>
-        <styleUrl>#poly-C5E1A5-1200-77-nodesc</styleUrl>
+        <description><![CDATA[Varieties from this region include: Shiraz, Cabernet Sauvignon, Riesling<br>Size: 76,000 hectares (approx.)<br>Wineries: 200 (approx.)<br>Noteworthy: South Australia is the largest wine producing region in Australia and is home to the famous Barossa and Clare Valleys.]]></description>
+        <styleUrl>#poly-C5E1A5-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -10973,36 +12248,302 @@
       </Placemark>
       <Placemark>
         <name>Tasmania</name>
-        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            146.3874372,-42.2976326,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Tasmania</name>
-        <styleUrl>#poly-9C27B0-1200-77-nodesc</styleUrl>
+        <description><![CDATA[Varieties from this region include: Pinot Noir, Chardonnay, Riesling<br>Size: 2,100 hectares (approx.)<br>Wineries: 50 (approx.)<br>Noteworthy: Tasmania is known for producing premium sparkling wines, as well as high-quality Pinot Noir and Chardonnay. The cool climate of the region makes it ideal for growing these grape varieties.]]></description>
+        <styleUrl>#poly-9C27B0-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                144.6676716,-40.6968659,0
-                144.5248494,-41.2443428,0
-                145.0521931,-42.0407098,0
-                144.9533162,-42.2118221,0
-                145.4037556,-42.9881586,0
+                145.7772907,-40.9960529,0
+                145.9201131,-41.4422981,0
+                146.2261009,-41.6346169,0
+                146.0409626,-41.9590653,0
+                145.9640584,-42.2280944,0
+                145.9970173,-43.0524165,0
                 146.01899,-43.6197571,0
                 146.7331013,-43.7151219,0
                 147.5118024,-43.5468743,0
                 147.9745564,-43.3087754,0
-                148.161324,-42.9881586,0
-                148.4359822,-42.2606264,0
-                148.3907086,-40.8785488,0
-                147.8194195,-40.6788867,0
+                147.9415974,-42.9801216,0
+                147.8976521,-42.2606264,0
+                147.8194195,-41.0113233,0
+                147.4788433,-40.8037458,0
                 146.2373883,-41.0776104,0
-                144.6676716,-40.6968659,0
+                145.7772907,-40.9960529,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>New South Wales</name>
+        <description><![CDATA[Varieties from this region include: Semillon, Chardonnay, Sauvignon Blanc, Verdelho, Riesling, Shiraz, Cabernet Sauvignon, Merlot, Pinot Noir, Grenache/Mourvèdre.<br>Size: 40,000 hectares (apprx)<br>Wineries: 450 (apprx)<br>Noteworthy: Semillon and Shiraz in Hunter Valley, Riesling, Pinot Noir, and Sauvignon Blanc in cooler regions.]]></description>
+        <styleUrl>#poly-3949AB-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                152.0415987,-29.0092151,0
+                148.7545902,-29.1601503,0
+                145.9091312,-29.819988,0
+                145.6894047,-31.6985656,0
+                147.875684,-31.6892177,0
+                148.1503422,-30.2290064,0
+                148.3480961,-30.9383477,0
+                149.2379887,-30.9666132,0
+                149.4906742,-31.8386711,0
+                148.8864262,-32.9149423,0
+                148.8644535,-32.3691304,0
+                149.4577152,-31.745291,0
+                149.0951664,-31.2206251,0
+                148.1723148,-31.0607708,0
+                148.1283695,-30.4754987,0
+                147.9965336,-31.7639746,0
+                148.5623295,-32.257711,0
+                148.7945604,-33.7520079,0
+                148.5913134,-33.6377496,0
+                148.3551073,-32.9628489,0
+                147.976079,-32.9075248,0
+                147.9541063,-33.9299471,0
+                148.8165331,-33.8615528,0
+                149.0966844,-34.6425044,0
+                148.6077928,-34.9852594,0
+                148.3551073,-34.9537495,0
+                148.2727098,-34.262015,0
+                147.4816942,-34.3527649,0
+                147.3938036,-33.9572895,0
+                147.3333788,-34.3119396,0
+                147.302197,-33.0787533,0
+                146.4493395,-33.0574362,0
+                145.6184984,-33.2574802,0
+                145.3047852,-33.4259335,0
+                144.5220093,-33.5427617,0
+                144.1841797,-33.8683567,0
+                144.1622071,-34.6074346,0
+                143.5689454,-34.8602364,0
+                142.9921631,-34.2812697,0
+                144.2830567,-35.6452381,0
+                144.8158936,-35.9748881,0
+                144.9257569,-35.46648,0
+                144.7557301,-35.426917,0
+                145.5330128,-35.3306226,0
+                144.8345451,-34.638537,0
+                146.9603996,-35.4435724,0
+                147.056672,-35.1741658,0
+                147.66092,-35.2863417,0
+                147.457673,-35.617472,0
+                147.3543398,-35.9743565,0
+                147.5369875,-36.03879,0
+                147.7450092,-35.9626735,0
+                147.8658588,-36.0226739,0
+                147.8933246,-36.4767412,0
+                148.1652363,-36.0493261,0
+                147.6488788,-35.7823986,0
+                147.7093036,-35.9270962,0
+                147.6275928,-35.9687867,0
+                147.5386004,-36.0230974,0
+                147.7802996,-35.2731886,0
+                147.9670672,-35.2507622,0
+                148.5658221,-35.2417899,0
+                148.697658,-35.7649963,0
+                149.3788104,-35.8897019,0
+                149.834743,-35.3673117,0
+                149.197536,-34.715186,0
+                148.8761859,-33.7592674,0
+                150.084682,-34.1101966,0
+                150.5296282,-34.7129283,0
+                149.952846,-35.8206927,0
+                150.2055316,-35.9630973,0
+                151.0459857,-34.6858311,0
+                150.8317523,-34.2646914,0
+                148.8761859,-33.7318616,0
+                149.1343646,-33.2921802,0
+                149.2002825,-33.1497234,0
+                149.3101458,-32.9655659,0
+                150.0132708,-32.9194663,0
+                150.6779437,-33.40231,0
+                151.5513568,-33.2324685,0
+                151.9303851,-32.6793618,0
+                151.1119036,-31.8805731,0
+                150.8262591,-31.4926058,0
+                150.8921771,-31.1876471,0
+                151.2766986,-31.2956685,0
+                151.7436175,-31.1077258,0
+                152.1171527,-31.253414,0
+                152.7488665,-31.7919046,0
+                153.0400042,-31.4457535,0
+                151.760097,-31.0653873,0
+                151.8713106,-29.7797484,0
+                152.0415987,-29.0092151,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Victoria</name>
+        <description><![CDATA[Varieties from this region include: Chardonnay, Sauvignon Blanc, Riesling, Pinot Gris, Pinot Grigio, Marsanne/Roussanne/Viognier, Shiraz, Cabernet Sauvignon, Merlot, Pinot Noir, Grenache, Muscat, Tokay. <br>Size: 23,000 hectares (apprx)<br>Wineries: 800 (apprx)<br>Noteworthy: Pinot Noir and Chardonnay in cooler regions, Shiraz and Rhone in warmer regions, Rutherglen famous for fortified Muscat and Tokay. ]]></description>
+        <styleUrl>#poly-EDA29B-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                149.8371457,-37.6855193,0
+                147.8376339,-36.8110035,0
+                146.8928097,-36.7582103,0
+                146.3215207,-37.0919523,0
+                145.8820675,-36.3876411,0
+                145.2448605,-35.9619607,0
+                144.7614621,-36.1218618,0
+                143.8605832,-35.5160906,0
+                143.0475949,-35.3728856,0
+                143.0915402,-36.0508347,0
+                142.2346066,-35.926383,0
+                141.5534542,-35.9797435,0
+                140.7624386,-36.0685975,0
+                140.6205069,-36.4319123,0
+                140.9546707,-38.0661894,0
+                141.443591,-38.4294553,0
+                141.8830441,-38.2916216,0
+                142.3884152,-38.3605713,0
+                142.718005,-37.789778,0
+                143.2673214,-37.126998,0
+                144.6515988,-37.3893233,0
+                144.3659542,-37.8592022,0
+                144.1022824,-38.274374,0
+                144.4538449,-38.4294553,0
+                145.3547238,-38.5326583,0
+                145.3327511,-37.6333349,0
+                144.82738,-37.2670185,0
+                144.7614621,-36.6172508,0
+                145.2009152,-37.1795361,0
+                145.6843136,-37.5811139,0
+                145.7062863,-38.6871856,0
+                146.5192746,-39.2168946,0
+                147.7497433,-38.0324767,0
+                149.8371457,-37.6855193,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Queensland</name>
+        <description><![CDATA[Varieties from this region include: Chambourcin, Shiraz, Cabernet Sauvignon, Merlot, Verdelho, Chardonnay, Sauvignon Blanc, Semillon<br>Size: 3,700 hectares (approx.)<br>Wineries: 30 (approx.)<br>Noteworthy: The South Burnett region is known for producing Shiraz with intense fruit flavors and subtle spice notes.<br>The Granite Belt region is known for producing Chardonnay with a unique minerality due to the region's granite-rich soil.]]></description>
+        <styleUrl>#poly-FBC02D-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                152.0681818,-28.7863256,0
+                152.2549494,-28.7718817,0
+                152.4966486,-28.463268,0
+                152.3153742,-28.1634366,0
+                152.7163752,-27.1416552,0
+                153.0349787,-26.8969752,0
+                152.7713068,-26.3715798,0
+                153.144842,-26.24355,0
+                152.6174982,-25.972253,0
+                151.8100031,-25.6359646,0
+                151.6781672,-26.6714005,0
+                152.6614435,-27.1269894,0
+                152.2549494,-28.1295316,0
+                151.8649347,-28.1924894,0
+                151.672674,-28.7622512,0
+                152.0681818,-28.7863256,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>New Zealand North Island</name>
+        <description><![CDATA[Varieties from this region include: Sauvignon Blanc, Chardonnay, Pinot Gris, Gewürztraminer, Voignier,<br>Merlot, Cabernet Sauvignon, Syrah, Pinot Noir, Malbec. <br>Size: 7,500 hectares (apprx)<br>Wineries: 320 (apprx)<br>Noteworthy: Bordeaux-style reds, Syrah and Chardonnay.]]></description>
+        <styleUrl>#poly-7CB342-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                172.6872785,-34.2999181,0
+                174.7307356,-37.2758345,0
+                174.6867903,-38.3347952,0
+                176.4446028,-38.7815269,0
+                176.0710676,-39.7680463,0
+                176.1589582,-40.7239796,0
+                175.7414778,-41.1224323,0
+                174.3462141,-41.1141557,0
+                174.8296125,-41.4444048,0
+                175.1701887,-41.7483964,0
+                176.1369856,-41.3042531,0
+                176.0930403,-41.0230444,0
+                176.8291242,-40.381734,0
+                177.0927961,-39.5735482,0
+                176.9389875,-39.1317971,0
+                176.5105207,-38.9526067,0
+                176.7412336,-38.6872575,0
+                178.0156477,-39.0123873,0
+                178.5649641,-38.4467383,0
+                178.7187727,-37.581187,0
+                177.9277571,-37.5637718,0
+                177.6860578,-38.1708745,0
+                177.2246321,-38.2744464,0
+                177.2246321,-37.9113002,0
+                175.9282453,-37.4591955,0
+                175.4009016,-37.074497,0
+                174.8955305,-36.6173248,0
+                174.7636946,-35.9620353,0
+                174.5879133,-35.6055392,0
+                174.3022688,-35.12174,0
+                172.6872785,-34.2999181,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>New Zealand South Island</name>
+        <description><![CDATA[Varieties from this region include: Sauvignon Blanc, Chardonnay, Riesling, Pinot Gris, Gewürztraminer, Pinot Noir,<br>Merlot and Cabernet Sauvignon. <br>Size: 40,000 hectares (apprx)<br>Wineries: 415 (apprx)<br>Noteworthy: Sauvignon Blanc and Pinot Noir]]></description>
+        <styleUrl>#poly-006064-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                168.3257063,-46.7865492,0
+                169.589134,-46.6132527,0
+                170.6438215,-45.8839194,0
+                171.2151106,-45.0052343,0
+                171.3908918,-44.3490234,0
+                172.4895246,-43.9153362,0
+                172.7312239,-44.0181315,0
+                173.1596906,-43.8361419,0
+                172.8410871,-43.1827798,0
+                173.5551985,-42.7083049,0
+                174.3242414,-41.7074001,0
+                173.8188703,-41.2547158,0
+                173.6156233,-41.0727571,0
+                173.203636,-41.2959995,0
+                173.2695539,-40.8985982,0
+                173.0278547,-40.7489533,0
+                172.7202375,-40.3649944,0
+                172.1050031,-40.8155038,0
+                172.4666045,-41.0308439,0
+                172.5224836,-41.4114551,0
+                172.1050031,-42.0509553,0
+                172.3467024,-42.5385418,0
+                171.3676587,-43.0671006,0
+                171.0208721,-43.2792407,0
+                169.9434878,-44.0198717,0
+                169.2925031,-44.1838096,0
+                168.7431867,-44.4196872,0
+                168.1718977,-45.1061267,0
+                168.8969953,-45.5079161,0
+                168.3257063,-46.7865492,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -11013,7 +12554,8 @@
       <name>South America</name>
       <Placemark>
         <name>Salta</name>
-        <styleUrl>#poly-FFEA00-1200-77-nodesc</styleUrl>
+        <description><![CDATA[Varieties from this region include: Malbec, Cabernet Sauvignon, Tannat, Syrah, Torrontes<br>Size: 20,000 (approx)<br>Wineries: 100 (approx)<br>Noteworthy: High-altitude vineyards producing wine with intense flavour and aromas]]></description>
+        <styleUrl>#poly-FFEA00-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -11035,7 +12577,8 @@
       </Placemark>
       <Placemark>
         <name>Tucamen</name>
-        <styleUrl>#poly-87CEAC-1200-77-nodesc</styleUrl>
+        <description><![CDATA[Varieties from this region include: Malbec, Cabernet Sauvignon, Syrah, Torrontes, Merlot<br>Size: 15,00 hectares (approx.)<br>Wineries: 80 (approx.)<br>Noteworthy: Known for producing fruit-forward and balanced red wines.]]></description>
+        <styleUrl>#poly-87CEAC-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -11056,7 +12599,8 @@
       </Placemark>
       <Placemark>
         <name>Catamarca</name>
-        <styleUrl>#poly-EDA29B-1200-77-nodesc</styleUrl>
+        <description><![CDATA[Varieties from this region include: Torrontes, Cabernet Sauvignon, Malbec, Syrah, Petit Verdot<br>Size: 10,000 hectares (approx.)<br>Wineries: 50 (approx.)<br>Noteworthy: Emerging region producing unique and high-quality wines]]></description>
+        <styleUrl>#poly-EDA29B-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -11079,7 +12623,8 @@
       <Placemark>
         <name>La Rioja
 </name>
-        <styleUrl>#poly-A52714-1200-77-nodesc</styleUrl>
+        <description><![CDATA[Varieties from this region include: Malbec, Tempranillo, Cabernet Sauvignon, Merlot, Syrah<br>Size: 20,000 (approx.)<br>Wineries: 120 (approx.)<br>Noteworthy: One of the oldest wine-producing regions in Argentina, known for its full-bodied red wines]]></description>
+        <styleUrl>#poly-A52714-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -11104,7 +12649,8 @@
       <Placemark>
         <name>San Juan
 </name>
-        <styleUrl>#poly-7CB342-1200-77-nodesc</styleUrl>
+        <description><![CDATA[Varieties from this region include: Malbec, Cabernet Sauvignon, Syrah, Petit Verdot, Merlot<br>Size: 30,000 (approx.)<br>Wineries: 200 (approx.)<br>Noteworthy: Known for producing high-quality and diverse wine styles]]></description>
+        <styleUrl>#poly-7CB342-1200-77</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -13302,6 +14848,164 @@
           </outerBoundaryIs>
         </Polygon>
       </Placemark>
+      <Placemark>
+        <name>The South - Jezzine</name>
+        <description><![CDATA[Jezzine<br>Varieties from this region include: Meksassi, Albariño, Touriga Nacional, Saperavi, plus Cabernet Sauvignon and Sauvignon Blanc in some plantings.<br>Size: not consistently published; this is a very small emerging southern region.<br>Wineries: generally cited as 1 main winery, Karam Wines.<br>Noteworthy: One of Lebanon’s newest and most distinctive wine zones, focused on high-altitude, small-batch wines with unusual grape choices for the country.]]></description>
+        <styleUrl>#poly-CE93D8-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                35.1020063,33.0936779,0
+                35.3162397,33.1040319,0
+                35.3821577,33.0580047,0
+                35.5290998,33.1293366,0
+                35.5263532,33.2270362,0
+                35.5648054,33.2878996,0
+                35.6211103,33.24886,0
+                35.6238569,33.2844556,0
+                35.728227,33.3315114,0
+                35.8147444,33.3533091,0
+                35.8174909,33.3968882,0
+                35.945207,33.4748172,0
+                35.9383405,33.5023049,0
+                35.7872785,33.5160455,0
+                35.7227339,33.4564873,0
+                35.6238569,33.4266928,0
+                35.6403364,33.5091754,0
+                35.600511,33.5927235,0
+                35.5510725,33.598443,0
+                35.4604353,33.5698416,0
+                35.3862776,33.5892916,0
+                35.308,33.4748172,0
+                35.2407087,33.3957416,0
+                35.2173628,33.2856036,0
+                35.1953901,33.1879694,0
+                35.1651777,33.1569334,0
+                35.1020063,33.0936779,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Mount Lebanon</name>
+        <description><![CDATA[Mount Lebanon<br>Varieties from this region include: Cabernet Sauvignon, Syrah, Cinsault, Obeideh, Chardonnay, Viognier and Sauvignon Blanc.<br>Size: not clearly stated in the sources I found; it is a smaller, scattered high-altitude region rather than a single large contiguous vineyard zone.<br>Wineries: about 11 wineries are cited in older regional breakdowns.<br>Noteworthy: A historic high-altitude region producing wines with freshness and balance, with Obeideh standing out as an important local grape.]]></description>
+        <styleUrl>#poly-E65100-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                35.3862776,33.5892916,0
+                35.4604353,33.5698416,0
+                35.5418357,33.601635,0
+                35.600511,33.5927235,0
+                35.6338462,33.5312613,0
+                35.7924613,33.8101296,0
+                35.8281669,33.8683032,0
+                35.8872184,33.9492241,0
+                35.9648093,34.0266538,0
+                36.01386,34.1420381,0
+                35.9603016,34.1579491,0
+                35.8806507,34.1465844,0
+                35.8751576,34.1727208,0
+                35.773534,34.1818099,0
+                35.6403248,34.1977133,0
+                35.6362049,34.1465844,0
+                35.6540577,34.1147553,0
+                35.6169789,34.0226106,0
+                35.6362049,33.9895962,0
+                35.570287,33.9189707,0
+                35.4686634,33.9201102,0
+                35.4796498,33.7946643,0
+                35.3862776,33.5892916,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>The North - Batroun</name>
+        <description><![CDATA[Batroun<br>Varieties from this region include: Syrah, Cabernet Sauvignon, Sauvignon Blanc, Chardonnay, and some indigenous and experimental varieties in smaller plantings.<br>Size: not consistently published in a single reliable figure; the region is much smaller than Bekaa and is mostly boutique, terraced hillside vineyard land.<br>Wineries: about 8–9 wineries are commonly cited.<br>Noteworthy: Lebanon’s leading cool-climate boutique region, known for organic and high-altitude wines with strong coastal-mountain influence.]]></description>
+        <styleUrl>#poly-097138-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                36.01386,34.1420381,0
+                36.1937838,34.3614189,0
+                36.3311129,34.5063995,0
+                36.3297396,34.52903,0
+                36.4038973,34.5527854,0
+                36.3997774,34.603667,0
+                36.4519625,34.5923627,0
+                36.4574557,34.634181,0
+                36.412137,34.6274011,0
+                36.3407259,34.659036,0
+                36.3311129,34.6963044,0
+                36.3022738,34.6725901,0
+                36.2981539,34.634181,0
+                36.2006502,34.6274011,0
+                35.9836703,34.6420902,0
+                35.9781771,34.5245044,0
+                35.8202486,34.4543261,0
+                35.7392245,34.3750215,0
+                35.6499605,34.2797569,0
+                35.6389742,34.2048302,0
+                35.8971529,34.1707506,0
+                35.9314852,34.1582513,0
+                35.9603016,34.1579491,0
+                36.01386,34.1420381,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Bekaa Valley</name>
+        <description><![CDATA[Bekaa Valley<br>Varieties from this region include: Cabernet Sauvignon, Merlot, Syrah, Cinsault, Carignan, Grenache, Chardonnay, Sauvignon Blanc, Semillon and Viognier.<br>Size: around 3,000 hectares.<br>Wineries: 17+ in older official references; more recent estimates put Lebanon at around 50–80 producers overall, with the Bekaa as the dominant region.<br>Noteworthy: Lebanon’s wine powerhouse, responsible for the majority of national production and known for structured reds and fresh whites.]]></description>
+        <styleUrl>#poly-FFEA00-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                35.6307345,33.4461799,0
+                35.7076388,33.4519091,0
+                35.7872785,33.5160455,0
+                35.925992,33.5114705,0
+                35.9768038,33.5378018,0
+                36.0234957,33.5263544,0
+                36.0386019,33.5892965,0
+                35.9273653,33.6361872,0
+                36.0509615,33.8109439,0
+                36.1841707,33.8440276,0
+                36.2281161,33.8223535,0
+                36.2473421,33.8485898,0
+                36.3668184,33.8166489,0
+                36.3778048,33.8531519,0
+                36.2816744,33.923832,0
+                36.4217501,34.0377087,0
+                36.4766817,34.0354327,0
+                36.4986544,34.076392,0
+                36.6140108,34.1946078,0
+                36.5755587,34.2354901,0
+                36.5892916,34.2967763,0
+                36.5453463,34.3240003,0
+                36.5453463,34.3965545,0
+                36.4519625,34.4939501,0
+                36.350339,34.5120577,0
+                36.0509615,34.1650694,0
+                35.7405977,33.7001917,0
+                35.6307345,33.4461799,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
     </Folder>
     <Folder>
       <name>South Africa</name>
@@ -13954,6 +15658,877 @@
                 -119.9942873,48.0485026,0
                 -120.2250002,47.792653,0
                 -120.4227541,47.4390249,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Long Island</name>
+        <styleUrl>#poly-9C27B0-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -73.7568447,40.7748501,0
+                -73.7431118,40.5748763,0
+                -73.5206387,40.5748763,0
+                -72.4137661,40.8351409,0
+                -71.8424771,41.057119,0
+                -71.9386074,41.0943878,0
+                -72.1116421,40.9991034,0
+                -72.1500942,41.0488342,0
+                -72.2654507,41.0861077,0
+                -71.908395,41.2866064,0
+                -71.9660732,41.3051783,0
+                -72.5565884,41.0446914,0
+                -72.6884243,40.9866648,0
+                -73.0866787,40.9783711,0
+                -73.5014126,40.949335,0
+                -73.7623379,40.8579955,0
+                -73.7568447,40.7748501,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Hudson River Region</name>
+        <styleUrl>#poly-7CB342-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -73.8294071,42.4115335,0
+                -73.8733524,42.114768,0
+                -74.1864628,42.2978708,0
+                -74.527039,42.2409624,0
+                -74.6973271,42.0372987,0
+                -74.2853397,41.9025219,0
+                -74.9445194,41.4800223,0
+                -74.191956,41.1334067,0
+                -74.2853397,41.0630342,0
+                -73.692078,40.971852,0
+                -73.0493778,41.1871701,0
+                -73.2965702,41.451208,0
+                -73.1647343,42.638242,0
+                -73.8294071,42.4115335,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Upper Hudson</name>
+        <styleUrl>#poly-F48FB1-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -73.7195438,42.6261177,0
+                -73.2691044,42.7472538,0
+                -73.4009403,43.2774449,0
+                -73.6316532,43.4372049,0
+                -73.9612431,43.3773442,0
+                -74.2139286,42.9084011,0
+                -74.4995731,42.9486222,0
+                -74.6478886,42.8641275,0
+                -74.4006962,42.4925952,0
+                -73.7195438,42.6261177,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Finger Lakes</name>
+        <styleUrl>#poly-FFD600-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -77.6110426,43.1306556,0
+                -77.7318922,42.8534167,0
+                -77.7428785,42.5304153,0
+                -77.2649733,42.3236254,0
+                -77.1084181,42.1609601,0
+                -76.8117872,42.1609601,0
+                -76.6497389,42.1874217,0
+                -76.5151564,42.3155021,0
+                -76.4409986,42.4554821,0
+                -76.235005,42.5263671,0
+                -76.1745802,42.6658765,0
+                -76.1278883,42.8775741,0
+                -76.1608473,42.9318936,0
+                -76.6195265,42.9439581,0
+                -76.7980543,43.0102706,0
+                -76.9106642,43.0363741,0
+                -77.122151,43.0042452,0
+                -77.2814527,43.0162955,0
+                -77.4627272,43.0524323,0
+                -77.6110426,43.1306556,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Nicaragua Escarpment</name>
+        <styleUrl>#poly-A52714-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -79.0433851,43.1336622,0
+                -78.9074293,43.139675,0
+                -78.7961927,43.1506968,0
+                -78.6918226,43.1516987,0
+                -78.5819593,43.1767405,0
+                -78.45287,43.1787434,0
+                -78.4597364,43.2167861,0
+                -78.5984388,43.2117818,0
+                -78.7179151,43.1727345,0
+                -78.8579908,43.1607149,0
+                -79.0433851,43.1336622,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Lake Erie</name>
+        <styleUrl>#poly-AFB42B-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -79.7602269,42.2727234,0
+                -79.7629735,42.2371474,0
+                -79.5116612,42.1995168,0
+                -79.4265172,42.3194498,0
+                -79.2109105,42.447262,0
+                -78.9914992,42.470133,0
+                -78.7429336,42.5571887,0
+                -78.6701491,42.644123,0
+                -78.6193374,42.7682485,0
+                -78.6660293,42.8407922,0
+                -78.8170913,42.854888,0
+                -78.8637832,42.850861,0
+                -78.8692763,42.8115835,0
+                -78.8720229,42.7632076,0
+                -78.9722732,42.7188299,0
+                -79.0656569,42.678459,0
+                -79.1192153,42.5996601,0
+                -79.160414,42.551119,0
+                -79.3513015,42.4934272,0
+                -79.4776442,42.4103387,0
+                -79.5916274,42.3403373,0
+                -79.7602269,42.2727234,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Champlain Valley</name>
+        <styleUrl>#poly-673AB7-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -73.4600489,44.0381652,0
+                -73.446239,44.0949427,0
+                -73.4119067,44.1452216,0
+                -73.3995471,44.1885651,0
+                -73.3130298,44.2623727,0
+                -73.3501086,44.3184046,0
+                -73.3720813,44.4391333,0
+                -73.4119067,44.4822603,0
+                -73.3830676,44.52046,0
+                -73.4173999,44.5586346,0
+                -73.3981738,44.6212258,0
+                -73.4448657,44.6691017,0
+                -73.4201465,44.7071787,0
+                -73.3871875,44.6817968,0
+                -73.3693347,44.716938,0
+                -73.403667,44.74328,0
+                -73.3542285,44.7988513,0
+                -73.4119067,44.8309997,0
+                -73.3816943,44.8456067,0
+                -73.3871875,44.8748096,0
+                -73.3514819,44.9273375,0
+                -73.3597217,44.9759316,0
+                -73.3501086,45.0089521,0
+                -73.7002978,45.0002133,0
+                -73.6906848,44.8835676,0
+                -73.63026,44.8387906,0
+                -73.5615955,44.791055,0
+                -73.5725818,44.7354762,0
+                -73.6179004,44.7296227,0
+                -73.6192737,44.6808204,0
+                -73.5629687,44.6163383,0
+                -73.5670886,44.4930371,0
+                -73.5039172,44.5057708,0
+                -73.4916346,44.3875943,0
+                -73.4820216,44.2923223,0
+                -73.4710352,44.2254414,0
+                -73.4490626,44.1850794,0
+                -73.4710352,44.1230059,0
+                -73.488888,44.0460625,0
+                -73.4600489,44.0381652,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Prince Edward County</name>
+        <description>Known for: Ice Wine made from Riesling and Vidal Blanc grapes, and cool-climate wines like Riesling, Pinot Noir and Cabernet Franc.</description>
+        <styleUrl>#poly-FF5252-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -76.6223976,44.158658,0
+                -76.6114112,44.1941152,0
+                -76.671836,44.1882071,0
+                -76.803672,44.1409214,0
+                -76.8228981,44.1054323,0
+                -76.9190284,44.1054323,0
+                -76.836631,44.1409214,0
+                -76.9986793,44.2452934,0
+                -77.4134132,44.2000226,0
+                -77.8885719,44.0403135,0
+                -77.8336402,43.9929093,0
+                -77.5864479,43.9810524,0
+                -77.5287696,43.9217321,0
+                -77.322776,43.9355788,0
+                -77.2650978,43.8643328,0
+                -77.1552345,43.8286779,0
+                -76.8421241,43.9355788,0
+                -77.0069191,43.9454673,0
+                -76.8448707,44.083734,0
+                -76.7212745,44.0935978,0
+                -76.6223976,44.158658,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Niagara Falls</name>
+        <description><![CDATA[Known for: Ice Wine made from Riesling and Vidal Blanc grapes, and cool-climate wines like Riesling, Pinot Noir and Cabernet Franc. Niagara Peninsula is the leading AVA and makes up 80% of Ontario's wine production.]]></description>
+        <styleUrl>#poly-01579B-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -79.0662937,43.2654708,0
+                -79.2722873,43.1894225,0
+                -79.5277195,43.2214544,0
+                -79.9177341,43.2694707,0
+                -80.1264743,43.1513628,0
+                -79.9397068,43.05912,0
+                -79.4343357,43.016963,0
+                -79.0745334,43.0831967,0
+                -79.0433851,43.1336622,0
+                -79.0662937,43.2654708,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Lake Erie North Shore</name>
+        <description>Known for: Ice Wine made from Riesling and Vidal Blanc grapes, and cool-climate wines like Riesling, Pinot Noir and Cabernet Franc.</description>
+        <styleUrl>#poly-F57C00-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -80.7823424,42.6443283,0
+                -80.7988219,42.7815578,0
+                -81.4689879,42.7694616,0
+                -81.7958312,42.6402876,0
+                -82.1995788,42.4095308,0
+                -82.460504,42.3161771,0
+                -82.7379088,42.2978961,0
+                -82.9466491,42.3385135,0
+                -83.0620055,42.3080529,0
+                -83.1389098,42.1718155,0
+                -83.1196837,42.0454832,0
+                -82.9109435,41.9740554,0
+                -82.6417785,42.0169217,0
+                -82.5044494,41.9045916,0
+                -82.4522643,42.0699543,0
+                -82.2380309,42.177922,0
+                -82.0595031,42.2592853,0
+                -81.8178039,42.2531866,0
+                -81.8260436,42.3649007,0
+                -81.5376525,42.5513246,0
+                -81.2575011,42.6625085,0
+                -80.7823424,42.6443283,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Vancouver Island</name>
+        <description>Known for: White and reds made from Pinot Gris, Pinot Meunier, Gewürztraminer, Merlot, Syrah and Pinot Noir grape varieties.</description>
+        <styleUrl>#poly-FBC02D-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -123.2949161,48.8158157,0
+                -124.1298771,49.2479957,0
+                -125.1845646,50.0447044,0
+                -125.5800724,50.4801422,0
+                -127.8212833,50.8977487,0
+                -128.7001896,50.7172423,0
+                -127.8212833,50.171532,0
+                -126.6787052,49.5340316,0
+                -125.5800724,48.9169936,0
+                -123.8002872,48.3068553,0
+                -123.2852011,48.4524307,0
+                -123.2949161,48.8158157,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Gulf Island</name>
+        <description>Known for: White and reds made from Pinot Gris, Pinot Meunier, Gewürztraminer, Merlot, Syrah and Pinot Noir grape varieties.</description>
+        <styleUrl>#poly-C2185B-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -123.0751896,48.7941081,0
+                -123.7893009,49.3482977,0
+                -124.3935489,49.7403669,0
+                -124.8549747,50.1011137,0
+                -124.7451114,50.3471245,0
+                -125.602045,50.5848924,0
+                -125.2504825,50.1152057,0
+                -123.9650821,49.1690437,0
+                -123.2949161,48.8158157,0
+                -123.0751896,48.7941081,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Fraser Valley</name>
+        <description>Known for: White and reds made from Pinot Gris, Pinot Meunier, Gewürztraminer, Merlot, Syrah and Pinot Noir grape varieties.</description>
+        <styleUrl>#poly-558B2F-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -123.0751896,49.0251715,0
+                -121.4052677,49.0179669,0
+                -121.482172,49.4555378,0
+                -121.9545841,49.9175409,0
+                -122.6357364,49.8750783,0
+                -123.3388614,49.6337509,0
+                -123.3937931,49.3983722,0
+                -123.0751896,49.0251715,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Similkameen Valley</name>
+        <description>Known for: White and reds made from Pinot Gris, Pinot Meunier, Gewürztraminer, Merlot, Syrah and Pinot Noir grape varieties.</description>
+        <styleUrl>#poly-F57C00-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -118.9545846,49.0119371,0
+                -119.0040231,49.2061177,0
+                -119.5890451,49.592201,0
+                -119.9213815,49.6491405,0
+                -120.1850534,49.7095659,0
+                -120.4487252,49.5583617,0
+                -120.489924,49.4459898,0
+                -120.5448556,49.2115008,0
+                -120.3086495,49.1522549,0
+                -120.3416085,49.0119371,0
+                -119.451716,48.999325,0
+                -118.9545846,49.0119371,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Okanagan Valley</name>
+        <description>Known for: White and reds made from Pinot Gris, Pinot Meunier, Gewürztraminer, Merlot, Syrah and Pinot Noir grape varieties.</description>
+        <styleUrl>#poly-795548-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -118.5324341,48.9997036,0
+                -118.3566528,49.2800119,0
+                -118.4005982,49.6121554,0
+                -118.3758789,49.8358783,0
+                -118.0023438,50.0620975,0
+                -118.1286865,50.199429,0
+                -118.4033447,50.1519358,0
+                -118.5708862,50.2152496,0
+                -118.7164551,50.2802347,0
+                -118.9114624,50.2082189,0
+                -119.1009766,50.1184863,0
+                -119.1421753,49.9119923,0
+                -119.6200806,49.844735,0
+                -120.037561,49.6744041,0
+                -119.5376831,49.5890142,0
+                -118.9609009,49.1723887,0
+                -118.9361817,49.0015055,0
+                -118.5324341,48.9997036,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>South Shore</name>
+        <description>Known for: Crisp, aromatic whites, ice wine and traditional-method sparkling wines, made from cold-hardy grapes such as Frontenac, Marquette, Petite Perle, Vidal and Saint Pépin.</description>
+        <styleUrl>#poly-FBC02D-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -63.4523575,44.6732632,0
+                -63.9906876,44.8682511,0
+                -65.1222794,44.3834731,0
+                -65.5837051,43.8629711,0
+                -65.8254044,43.5850869,0
+                -65.4628555,43.3458747,0
+                -65.3090469,43.6089561,0
+                -64.8036758,43.8154254,0
+                -64.2653458,44.2734468,0
+                -64.2104141,44.5246322,0
+                -64.0016739,44.4462526,0
+                -63.9797012,44.6263682,0
+                -63.8258926,44.4854555,0
+                -63.5402481,44.477617,0
+                -63.4523575,44.6732632,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bay of Fundy & Annapolis Valley]]></name>
+        <description>Known for: Crisp, aromatic whites, ice wine and traditional-method sparkling wines, made from cold-hardy grapes such as Frontenac, Marquette, Petite Perle, Vidal and Saint Pépin.</description>
+        <styleUrl>#poly-0F9D58-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -65.2651016,44.3127656,0
+                -63.9906876,44.8682511,0
+                -62.8920548,45.2485178,0
+                -63.2326309,45.5031907,0
+                -63.7160294,45.5493716,0
+                -64.0456192,45.6953611,0
+                -64.3422501,45.7873692,0
+                -64.9684708,45.3335362,0
+                -64.408168,45.2794483,0
+                -65.9901993,44.6498204,0
+                -66.4406387,44.1947303,0
+                -66.0231583,44.3520581,0
+                -65.2651016,44.3127656,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Northumberland Shore</name>
+        <description>Known for: Crisp, aromatic whites, ice wine and traditional-method sparkling wines, made from cold-hardy grapes such as Frontenac, Marquette, Petite Perle, Vidal and Saint Pépin.</description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -64.0456192,46.0319828,0
+                -64.3422501,45.7873692,0
+                -63.7160294,45.5493716,0
+                -63.2326309,45.5031907,0
+                -62.8920548,45.2485178,0
+                -61.3539688,45.6416197,0
+                -61.8703262,45.6723354,0
+                -61.9362442,45.9174544,0
+                -62.5295059,45.6416197,0
+                -62.6943008,45.7643814,0
+                -63.1117813,45.8256611,0
+                -63.770961,45.9098108,0
+                -64.0456192,46.0319828,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Cape Breton Island</name>
+        <description>Known for: Crisp, aromatic whites, ice wine and traditional-method sparkling wines, made from cold-hardy grapes such as Frontenac, Marquette, Petite Perle, Vidal and Saint Pépin.</description>
+        <styleUrl>#poly-C2185B-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -61.4418594,46.1767121,0
+                -61.4089005,45.7030343,0
+                -61.0133926,45.4877886,0
+                -59.7609512,45.8562757,0
+                -59.6730606,46.1843189,0
+                -60.321254,46.3741472,0
+                -60.2443497,46.8571116,0
+                -60.4201309,47.1194114,0
+                -60.7167618,47.0820188,0
+                -61.4418594,46.1767121,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Estrie</name>
+        <description>Known for: Crisp, aromatic whites, ice wine and traditional-method sparkling wines, made from cold-hardy grapes such as Frontenac, Marquette, Petite Perle, Vidal and Saint Pépin.</description>
+        <styleUrl>#poly-F48FB1-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -70.3243395,46.1574866,0
+                -70.4451891,46.1270382,0
+                -70.8516833,45.9821783,0
+                -71.444945,45.8675469,0
+                -72.1041247,45.6068385,0
+                -72.1260973,44.9730626,0
+                -71.5987536,44.9886048,0
+                -71.3570543,45.2599115,0
+                -70.9176012,45.2831063,0
+                -70.5001208,45.6682912,0
+                -70.3353258,46.0432183,0
+                -70.3243395,46.1574866,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Monteregie</name>
+        <description>Known for: Crisp, aromatic whites, ice wine and traditional-method sparkling wines, made from cold-hardy grapes such as Frontenac, Marquette, Petite Perle, Vidal and Saint Pépin.</description>
+        <styleUrl>#poly-097138-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -72.1370836,45.0274419,0
+                -72.1041247,45.6068385,0
+                -72.6644274,45.7909943,0
+                -73.0819079,46.073713,0
+                -73.3236071,45.7066648,0
+                -73.7301012,45.5683964,0
+                -74.0047594,45.3371907,0
+                -74.364765,45.5394577,0
+                -74.3592719,45.1959865,0
+                -74.5075873,45.0059941,0
+                -72.1370836,45.0274419,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Centre-du-Quebec</name>
+        <styleUrl>#poly-87CEAC-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -73.0819079,46.073713,0
+                -72.6105845,45.7902875,0
+                -72.1041247,45.6068385,0
+                -71.6492808,45.8017773,0
+                -71.3141978,45.9127227,0
+                -71.5229381,45.985291,0
+                -71.4570201,46.1453682,0
+                -71.5998423,46.2252327,0
+                -71.5613902,46.4073445,0
+                -71.9129527,46.6190424,0
+                -72.1161998,46.5473088,0
+                -72.2535289,46.441423,0
+                -72.5281871,46.3201582,0
+                -72.6984752,46.1720026,0
+                -73.0819079,46.073713,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Chaudiere-Appalaches</name>
+        <styleUrl>#poly-A1C2FA-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -71.4130748,46.1720026,0
+                -71.4899791,45.9776567,0
+                -71.2702525,45.9089007,0
+                -70.4451891,46.1270382,0
+                -70.314442,46.2100293,0
+                -70.0727427,46.4073445,0
+                -70.0287974,46.660529,0
+                -69.7321666,46.9575441,0
+                -70.2045787,47.2454619,0
+                -70.3803599,47.1035672,0
+                -71.1768687,46.7735127,0
+                -71.5504039,46.7057509,0
+                -71.9129527,46.6190424,0
+                -71.5613902,46.4073445,0
+                -71.555897,46.2290329,0
+                -71.4130748,46.1720026,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Capitale-Nationale</name>
+        <description>Known for: Crisp, aromatic whites, ice wine and traditional-method sparkling wines, made from cold-hardy grapes such as Frontenac, Marquette, Petite Perle, Vidal and Saint Pépin.</description>
+        <styleUrl>#poly-FADA80-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -72.1711314,46.8487038,0
+                -71.923939,46.6680687,0
+                -71.4680064,46.7170505,0
+                -70.8747447,46.9087809,0
+                -70.5067027,47.3497734,0
+                -69.8969615,47.7280255,0
+                -69.6992076,48.1255554,0
+                -70.1331675,48.239097,0
+                -70.7209361,48.3414346,0
+                -71.2592662,48.2756697,0
+                -71.4625132,48.1841889,0
+                -72.1546519,48.1512158,0
+                -72.0667613,47.9529318,0
+                -72.1656382,47.7206351,0
+                -72.3304332,47.7612698,0
+                -72.5776256,47.7649622,0
+                -72.423817,47.5948364,0
+                -72.3029673,47.4130049,0
+                -72.32494,47.2230827,0
+                -72.5666392,47.0886089,0
+                -72.32494,46.9087809,0
+                -72.1711314,46.8487038,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Laurentides</name>
+        <description>Known for: Crisp, aromatic whites, ice wine and traditional-method sparkling wines, made from cold-hardy grapes such as Frontenac, Marquette, Petite Perle, Vidal and Saint Pépin.</description>
+        <styleUrl>#poly-E65100-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -74.3574107,45.5715322,0
+                -74.0278209,45.4406393,0
+                -73.7092173,45.6176571,0
+                -74.1102183,45.897433,0
+                -74.4507945,46.088251,0
+                -74.2585338,46.2252327,0
+                -74.3244517,46.6831447,0
+                -74.368397,47.3944153,0
+                -74.4453013,47.7095474,0
+                -74.5276988,47.9713235,0
+                -75.2747691,48.0227854,0
+                -75.3956187,47.5800166,0
+                -75.1484263,47.3460515,0
+                -75.13744,47.1969617,0
+                -75.3572349,47.1077626,0
+                -75.7856334,47.174562,0
+                -75.8332978,47.0041658,0
+                -75.5627897,46.9684337,0
+                -75.5933726,46.762225,0
+                -75.9339488,46.6265878,0
+                -75.5878795,46.4565622,0
+                -75.6208384,46.2632226,0
+                -75.6285811,46.0802025,0
+                -75.6875707,45.9773275,0
+                -75.6558527,45.9249003,0
+                -75.4923222,45.9640573,0
+                -75.3846324,45.7979476,0
+                -75.1349627,45.7790631,0
+                -75.0539674,45.9186293,0
+                -74.8627818,45.9127227,0
+                -74.5881236,45.9280081,0
+                -74.6100963,45.6675828,0
+                -74.3574107,45.5715322,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Lanaudiere</name>
+        <description>Known for: Crisp, aromatic whites, ice wine and traditional-method sparkling wines, made from cold-hardy grapes such as Frontenac, Marquette, Petite Perle, Vidal and Saint Pépin.</description>
+        <styleUrl>#poly-880E4F-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -73.7092173,45.6176571,0
+                -73.3888059,45.756639,0
+                -73.1690793,46.0471581,0
+                -73.4492307,46.4611706,0
+                -73.5041623,46.8119404,0
+                -73.6030393,47.1118592,0
+                -73.6140256,47.5252131,0
+                -73.8996701,47.6030515,0
+                -74.0754514,47.8063661,0
+                -74.3940549,47.9758021,0
+                -74.5276988,47.9713235,0
+                -74.3775754,47.3654687,0
+                -74.2585338,46.2252327,0
+                -74.4507945,46.088251,0
+                -73.7092173,45.6176571,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Outaouais</name>
+        <description>Known for: Crisp, aromatic whites, ice wine and traditional-method sparkling wines, made from cold-hardy grapes such as Frontenac, Marquette, Petite Perle, Vidal and Saint Pépin.</description>
+        <styleUrl>#poly-01579B-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -75.0199101,45.8991073,0
+                -75.1349627,45.7790631,0
+                -75.3934452,45.7651473,0
+                -75.4923222,45.9640573,0
+                -75.7065556,45.9067525,0
+                -76.0196659,45.9755112,0
+                -75.9043095,46.2838704,0
+                -75.8363913,46.3461468,0
+                -75.6364813,46.3475791,0
+                -75.5878795,46.4565622,0
+                -75.9427616,46.5942785,0
+                -76.0855839,46.6960991,0
+                -75.9702274,46.8503492,0
+                -75.8383915,46.9216811,0
+                -75.9043095,46.9554368,0
+                -75.7856334,47.174562,0
+                -75.4318974,47.1052048,0
+                -75.13744,47.1969617,0
+                -75.1484263,47.3460515,0
+                -75.4099247,47.496347,0
+                -75.3275272,47.8477453,0
+                -75.4813358,47.8661744,0
+                -75.88783,47.8182451,0
+                -76.2393925,47.6556941,0
+                -76.5140507,47.5000582,0
+                -76.3986942,47.4443618,0
+                -76.3657353,47.299275,0
+                -76.2668583,47.0640605,0
+                -76.4536259,46.9816766,0
+                -76.6129276,47.045348,0
+                -76.86012,47.3439596,0
+                -76.9370243,47.2545526,0
+                -77.0688603,47.2918239,0
+                -77.2391483,47.2694642,0
+                -77.4723539,47.4221754,0
+                -77.5742313,47.3662877,0
+                -77.4808476,47.1463173,0
+                -77.4094364,46.8503492,0
+                -77.5247929,46.1964871,0
+                -77.4039433,46.0861098,0
+                -77.1182987,45.8761657,0
+                -76.7667362,45.9105746,0
+                -76.7227909,45.7114729,0
+                -76.4755985,45.5309032,0
+                -75.8438847,45.4654475,0
+                -75.3934452,45.5809062,0
+                -74.6100963,45.6675828,0
+                -74.6244022,45.9105746,0
+                -75.0199101,45.8991073,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Abitibi-Temiscamingue</name>
+        <description>Known for: Crisp, aromatic whites, ice wine and traditional-method sparkling wines, made from cold-hardy grapes such as Frontenac, Marquette, Petite Perle, Vidal and Saint Pépin.</description>
+        <styleUrl>#poly-FF5252-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -79.4920358,48.3655626,0
+                -79.5359811,47.3706471,0
+                -79.0306101,46.6590576,0
+                -78.49228,46.2655381,0
+                -77.5247929,46.1964871,0
+                -77.4094364,46.8503492,0
+                -77.6463327,47.5118276,0
+                -77.3497019,47.4004008,0
+                -76.9370243,47.2545526,0
+                -76.8003854,47.4301377,0
+                -76.6575632,47.5933906,0
+                -76.4268503,47.5563322,0
+                -75.7676706,47.829943,0
+                -75.2952585,47.9036455,0
+                -75.3721628,48.9389259,0
+                -79.4920358,48.9028303,0
+                -79.4920358,48.3655626,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
